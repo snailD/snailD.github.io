@@ -1,153 +1,180 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="你的名字的个人学术主页，包含简介、研究兴趣、动态、项目与联系方式。"
+      content="Xinyi Fu, Associate Professor at Tsinghua University. Research in human-computer interaction, user experience, computational aesthetics, and intelligent interaction."
     />
-    <title>你的名字</title>
+    <title>Xinyi Fu | Tsinghua University</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page">
-      <aside class="sidebar">
-        <img class="profile-photo" src="assets/profile.svg" alt="你的名字的头像" />
+    <header class="site-header">
+      <a class="brand" href="#home">Xinyi Fu</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#patents">Patents</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-        <section class="contact-block" aria-labelledby="contact-title">
-          <h2 id="contact-title">Contact</h2>
-          <p>Office: Room / City / Institution</p>
-          <p>Email: your.email(at)example(dot)com</p>
-          <p>GitHub: <a href="https://github.com/snailD">snailD</a></p>
-          <p>CV: <a href="#">English</a> / <a href="#">中文</a></p>
-        </section>
-
-        <hr />
-
-        <section class="contact-block">
-          <h2>Links</h2>
-          <p><a href="#news">Recent News</a></p>
-          <p><a href="#research">Research</a></p>
-          <p><a href="#projects">Projects</a></p>
-          <p><a href="#publications">Publications</a></p>
-        </section>
-      </aside>
-
-      <main class="content">
-        <header class="masthead">
-          <h1>你的名字</h1>
-          <p class="name-line">Your Name</p>
-          <p class="role-line">
-            Student / Researcher / Developer, Your Institution
+    <main id="home">
+      <section class="hero">
+        <div class="hero-photo">
+          <img src="assets/xinyi-fu.jpg" alt="Portrait of Xinyi Fu" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Associate Professor</p>
+          <h1>Xinyi Fu</h1>
+          <p class="name-cn">傅欣奕</p>
+          <p class="lead">
+            Associate Professor, The Future Laboratory, Tsinghua University.
           </p>
-        </header>
-
-        <nav class="top-nav" aria-label="页面导航">
-          <a href="#home">Home</a>
-          <a href="#research">Research</a>
-          <a href="#projects">Projects</a>
-          <a href="#publications">Publications</a>
-          <a href="#contact-title">Contact</a>
-        </nav>
-
-        <section id="home" class="section">
-          <h2>Biography</h2>
-          <p>
-            I am a student / researcher / developer interested in human-computer
-            interaction, artificial intelligence, data visualization, and usable
-            systems. This is a short academic-style biography. You can replace it
-            with your education background, current affiliation, research topics,
-            and career goals.
-          </p>
-          <p>
-            中文简介可以写在这里：包括你的学校、专业、研究方向、项目经验以及你希望
-            访问者快速了解的重点信息。建议保持简洁，学术主页通常更重视信息密度
-            和可读性。
-          </p>
-        </section>
-
-        <section id="news" class="section">
-          <h2>Recent News <span>scroll for more</span></h2>
-          <div class="news-box" tabindex="0">
-            <p><strong>May 2026:</strong> Personal website launched on GitHub Pages.</p>
-            <p><strong>Apr 2026:</strong> Add your latest project, award, paper, or internship update here.</p>
-            <p><strong>Mar 2026:</strong> Add another recent update. Keep each item short and dated.</p>
-            <p><strong>Feb 2026:</strong> Example: Presented a course project / joined a lab / released code.</p>
-            <p><strong>Jan 2026:</strong> Example: Started learning a new research topic or technical stack.</p>
+          <div class="hero-links" aria-label="Contact links">
+            <a href="mailto:fuxy@tsinghua.edu.cn">Email</a>
+            <a href="https://thfl.tsinghua.edu.cn/en/yjdw/jzg/Central_Organization/Human_Computer_Interaction__and_User_Experience/Resercher/Xinyi_Fu.htm">Tsinghua Profile</a>
+            <a href="https://github.com/snailD">GitHub</a>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section id="research" class="section">
-          <h2>Research Interests</h2>
-          <ul class="compact-list">
-            <li>Human-computer interaction and user-centered design</li>
-            <li>Artificial intelligence tools for creativity and productivity</li>
-            <li>Data visualization, web systems, and interactive applications</li>
-          </ul>
-        </section>
+      <section class="info-strip" aria-label="Profile summary">
+        <article>
+          <span>Affiliation</span>
+          <strong>The Future Laboratory, Tsinghua University</strong>
+        </article>
+        <article>
+          <span>Email</span>
+          <strong>fuxy@tsinghua.edu.cn</strong>
+        </article>
+        <article>
+          <span>Office</span>
+          <strong>Beijing, China</strong>
+        </article>
+      </section>
 
-        <section id="projects" class="section">
-          <h2>Selected Projects</h2>
-          <ol class="publication-list">
-            <li>
-              <strong>Project Title One.</strong>
-              Short description of the project, your role, and the outcome.
-              <a href="#">[Demo]</a> <a href="#">[Code]</a>
-            </li>
-            <li>
-              <strong>Project Title Two.</strong>
-              Replace this with a research project, course project, open-source
-              contribution, or portfolio item.
-              <a href="#">[Link]</a>
-            </li>
-            <li>
-              <strong>Project Title Three.</strong>
-              Add measurable impact if possible, such as users, accuracy,
-              performance, publication, or award.
-              <a href="#">[PDF]</a>
-            </li>
-          </ol>
-        </section>
+      <section class="section two-column" id="about">
+        <div class="section-title">
+          <p>Biography</p>
+          <h2>About</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            Xinyi Fu is an Associate Professor at The Future Laboratory,
+            Tsinghua University. She received her Ph.D. in Design from the
+            Academy of Arts & Design, Tsinghua University in 2018, and her
+            Bachelor's degree from the Department of Computer Science and
+            Technology, Tsinghua University in 2012.
+          </p>
+          <p>
+            Her research focuses on multimodal sensing, computing, and
+            interaction in living spaces. Her work emphasizes sensing and
+            modeling human behavior and psychology through multimodal signals to
+            build human-centric intelligent systems.
+          </p>
+        </div>
+      </section>
 
-        <section id="publications" class="section">
-          <h2>Publications / Writing</h2>
-          <ol class="publication-list">
-            <li>
-              <strong>Your Name</strong>. Paper or article title. Venue / Blog /
-              Preprint, 2026. <a href="#">[PDF]</a>
-            </li>
-            <li>
-              <strong>Your Name</strong>. Another publication, report, or essay
-              title. 2025. <a href="#">[Link]</a>
-            </li>
-          </ol>
-        </section>
+      <section class="section" id="research">
+        <div class="section-title">
+          <p>Interests</p>
+          <h2>Research Directions</h2>
+        </div>
+        <div class="research-grid">
+          <article>
+            <h3>Human-Computer Interaction</h3>
+            <p>
+            Natural HCI, human activity recognition, smart spaces, and
+            human-centric intelligent systems.
+            </p>
+          </article>
+          <article>
+            <h3>User Experience</h3>
+            <p>
+            Multimodal sensing and modeling of affect, behavior, and psychology
+            in living scenarios.
+            </p>
+          </article>
+          <article>
+            <h3>Computational Aesthetics</h3>
+            <p>
+            Digital cultural heritage, VR/AR experiences, and emerging computing
+            technologies for cultural preservation.
+            </p>
+          </article>
+        </div>
+      </section>
 
-        <section class="section">
-          <h2>Education</h2>
-          <table class="info-table">
-            <tbody>
-              <tr>
-                <th>2026 - Present</th>
-                <td>Your degree / position, Your Institution</td>
-              </tr>
-              <tr>
-                <th>2022 - 2026</th>
-                <td>Previous degree / school / major</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+      <section class="section two-column" id="publications">
+        <div class="section-title">
+          <p>Selected Work</p>
+          <h2>Publications</h2>
+        </div>
+        <ol class="paper-list section-body">
+          <li>
+            He Zhang and Xinyi Fu*. 2025. Zero-shot Emotion Annotation in Facial
+            Images Using Large Multimodal Models: Benchmarking and Prospects for
+            Multi-Class, Multi-Frame Approaches. MRAC '25.
+          </li>
+          <li>
+            Xinyi Fu#, Meng Li#, Xiaomeng Li, Wen Chen, Lening Yu, Zixin Chen,
+            Shuting Wen, Yilin Li, Jiachen Du, Yun Wang*, Yingqing Xu*, and
+            Yunbing Chen*. 2025. Emerging Computing Technology for Digital
+            Culture Heritage Preservation and Inheritance: A Literature Review.
+            IEEE Transactions on Computational Social Systems.
+          </li>
+          <li>
+            Xiao Xue, Xinyang Li, Boyang Jia, Jiachen Du, and Xinyi Fu*. 2024.
+            Who Should Hold Control? Rethinking Empowerment in Home Automation
+            among Cohabitants through the Lens of Co-Design. CHI '24.
+          </li>
+          <li>
+            He Zhang, Xinyang Li, Yuanxi Sun, Xinyi Fu*, Christine Qiu, and John
+            M. Carroll. 2024. VRMN-bD: A Multi-modal Natural Behavior Dataset of
+            Immersive Human Fear Responses in VR Stand-up Interactive Games.
+            IEEE VR 2024.
+          </li>
+        </ol>
+      </section>
 
-        <footer class="footer-nav">
-          <a href="#home">Home</a>
-          <a href="#research">Research</a>
-          <a href="#projects">Projects</a>
-          <a href="#publications">Publications</a>
-          <a href="#contact-title">Contact</a>
-        </footer>
-      </main>
-    </div>
+      <section class="section two-column" id="patents">
+        <div class="section-title">
+          <p>Innovation</p>
+          <h2>Patents</h2>
+        </div>
+        <ol class="paper-list section-body">
+          <li>
+            Dr. Fu has filed more than 20 invention patents related to
+            human-computer interaction, intelligent sensing, and user experience
+            evaluation.
+          </li>
+          <li>
+            Her work has also received recognition including a Best Poster Award
+            at IMWUT/UbiComp and a Special Contribution Award from ICACHI.
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+        </div>
+        <address>
+          The Future Laboratory, Tsinghua University<br />
+          Beijing, China<br />
+          <a href="mailto:fuxy@tsinghua.edu.cn">fuxy@tsinghua.edu.cn</a>
+        </address>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Xinyi Fu</span>
+      <a href="#home">Back to top</a>
+    </footer>
   </body>
 </html>
