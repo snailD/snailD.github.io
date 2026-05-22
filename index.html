@@ -5,176 +5,214 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Xinyi Fu, Associate Professor at Tsinghua University. Research in human-computer interaction, user experience, computational aesthetics, and intelligent interaction."
+      content="Xinyi Fu, Associate Professor at The Future Laboratory, Tsinghua University. Research in Natural HCI, affective computing, smart spaces, VR/AR, and digital cultural heritage."
     />
-    <title>Xinyi Fu | Tsinghua University</title>
+    <title>Xinyi Fu</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#home">Xinyi Fu</a>
-      <nav class="site-nav" aria-label="Primary navigation">
+    <header class="topbar">
+      <a class="brand" href="#about">Xinyi Fu</a>
+      <nav aria-label="Primary navigation">
         <a href="#about">About</a>
+        <a href="#updates">Updates</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#patents">Patents</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#service">Service</a>
       </nav>
     </header>
 
-    <main id="home">
-      <section class="hero">
-        <div class="hero-photo">
+    <main class="page">
+      <section class="profile" id="about">
+        <aside class="profile-card" aria-label="Profile information">
           <img src="assets/xinyi-fu-optimized.jpg" alt="Portrait of Xinyi Fu" />
-        </div>
-        <div class="hero-copy">
-          <p class="eyebrow">Associate Professor</p>
-          <h1>Xinyi Fu</h1>
-          <p class="name-cn">傅欣奕</p>
-          <p class="lead">
-            Associate Professor, The Future Laboratory, Tsinghua University.
-          </p>
-          <div class="hero-links" aria-label="Contact links">
+          <div class="profile-links">
             <a href="mailto:fuxy@tsinghua.edu.cn">Email</a>
-            <a href="https://thfl.tsinghua.edu.cn/en/yjdw/jzg/Central_Organization/Human_Computer_Interaction__and_User_Experience/Resercher/Xinyi_Fu.htm">Tsinghua Profile</a>
             <a href="https://github.com/snailD">GitHub</a>
+            <a href="https://thfl.tsinghua.edu.cn/en/yjdw/jzg/Central_Organization/Human_Computer_Interaction__and_User_Experience/Resercher/Xinyi_Fu.htm">Tsinghua Profile</a>
           </div>
+        </aside>
+
+        <div class="profile-main">
+          <h1>Xinyi Fu <span>傅欣奕</span></h1>
+          <p class="position">
+            Associate Professor, The Future Laboratory, Tsinghua University
+          </p>
+          <p>
+            I am an Associate Professor at The Future Laboratory, Tsinghua
+            University. My research focuses on multimodal sensing, computing,
+            and interaction in living spaces, with an emphasis on modeling human
+            behavior and psychology to build human-centric intelligent systems.
+          </p>
+          <p>
+            I received my Ph.D. in Design from the Academy of Arts & Design,
+            Tsinghua University in 2018, and my Bachelor's degree from the
+            Department of Computer Science and Technology, Tsinghua University in
+            2012.
+          </p>
+
+          <dl class="contact-list">
+            <div>
+              <dt>Research</dt>
+              <dd>Natural HCI, Affective Computing, Cultural Heritage Preservation</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:fuxy@tsinghua.edu.cn">fuxy@tsinghua.edu.cn</a></dd>
+            </div>
+            <div>
+              <dt>Address</dt>
+              <dd>The Future Laboratory, Tsinghua University, Beijing, China</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
-      <section class="info-strip" aria-label="Profile summary">
-        <article>
-          <span>Affiliation</span>
-          <strong>The Future Laboratory, Tsinghua University</strong>
-        </article>
-        <article>
-          <span>Email</span>
-          <strong>fuxy@tsinghua.edu.cn</strong>
-        </article>
-        <article>
-          <span>Office</span>
-          <strong>Beijing, China</strong>
-        </article>
-      </section>
-
-      <section class="section two-column" id="about">
-        <div class="section-title">
-          <p>Biography</p>
-          <h2>About</h2>
-        </div>
-        <div class="section-body">
-          <p>
-            Xinyi Fu is an Associate Professor at The Future Laboratory,
-            Tsinghua University. She received her Ph.D. in Design from the
-            Academy of Arts & Design, Tsinghua University in 2018, and her
-            Bachelor's degree from the Department of Computer Science and
-            Technology, Tsinghua University in 2012.
-          </p>
-          <p>
-            Her research focuses on multimodal sensing, computing, and
-            interaction in living spaces. Her work emphasizes sensing and
-            modeling human behavior and psychology through multimodal signals to
-            build human-centric intelligent systems.
-          </p>
+      <section class="section updates" id="updates">
+        <h2>Updates</h2>
+        <div class="timeline">
+          <article>
+            <time>2025</time>
+            <p>
+              Published work on zero-shot emotion annotation using large
+              multimodal models at MRAC '25.
+            </p>
+          </article>
+          <article>
+            <time>2025</time>
+            <p>
+              Literature review on emerging computing technology for digital
+              cultural heritage accepted by IEEE Transactions on Computational
+              Social Systems.
+            </p>
+          </article>
+          <article>
+            <time>2024</time>
+            <p>
+              Work on empowerment in home automation among cohabitants published
+              at CHI '24.
+            </p>
+          </article>
+          <article>
+            <time>2024</time>
+            <p>
+              VRMN-bD multimodal natural behavior dataset published at IEEE VR
+              2024.
+            </p>
+          </article>
         </div>
       </section>
 
       <section class="section" id="research">
-        <div class="section-title">
-          <p>Interests</p>
-          <h2>Research Directions</h2>
-        </div>
-        <div class="research-grid">
+        <h2>Research</h2>
+        <div class="research-list">
           <article>
-            <h3>Human-Computer Interaction</h3>
+            <h3>Human Activity Recognition and Affective Computing</h3>
             <p>
-            Natural HCI, human activity recognition, smart spaces, and
-            human-centric intelligent systems.
+              Sensing and modeling human behavior, emotion, and psychology
+              through multimodal signals in everyday living scenarios.
             </p>
           </article>
           <article>
-            <h3>User Experience</h3>
+            <h3>Smart Home Systems and Embodied Intelligence</h3>
             <p>
-            Multimodal sensing and modeling of affect, behavior, and psychology
-            in living scenarios.
+              Designing human-centric intelligent systems that improve the
+              efficiency and quality of human-machine collaboration.
             </p>
           </article>
           <article>
-            <h3>Computational Aesthetics</h3>
+            <h3>VR/AR and Digital Cultural Heritage</h3>
             <p>
-            Digital cultural heritage, VR/AR experiences, and emerging computing
-            technologies for cultural preservation.
+              Applying emerging computing technologies to immersive interaction,
+              cultural heritage preservation, and public engagement.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="section two-column" id="publications">
-        <div class="section-title">
-          <p>Selected Work</p>
-          <h2>Publications</h2>
-        </div>
-        <ol class="paper-list section-body">
+      <section class="section" id="publications">
+        <h2>Selected Publications</h2>
+        <ol class="publication-list">
           <li>
-            He Zhang and Xinyi Fu*. 2025. Zero-shot Emotion Annotation in Facial
-            Images Using Large Multimodal Models: Benchmarking and Prospects for
-            Multi-Class, Multi-Frame Approaches. MRAC '25.
+            <strong>He Zhang and Xinyi Fu*.</strong> Zero-shot Emotion Annotation
+            in Facial Images Using Large Multimodal Models: Benchmarking and
+            Prospects for Multi-Class, Multi-Frame Approaches. MRAC '25, 2025.
           </li>
           <li>
-            Xinyi Fu#, Meng Li#, Xiaomeng Li, Wen Chen, Lening Yu, Zixin Chen,
-            Shuting Wen, Yilin Li, Jiachen Du, Yun Wang*, Yingqing Xu*, and
-            Yunbing Chen*. 2025. Emerging Computing Technology for Digital
-            Culture Heritage Preservation and Inheritance: A Literature Review.
-            IEEE Transactions on Computational Social Systems.
+            <strong>Xinyi Fu#, Meng Li#, Xiaomeng Li, Wen Chen, Lening Yu,
+            Zixin Chen, Shuting Wen, Yilin Li, Jiachen Du, Yun Wang*, Yingqing
+            Xu*, and Yunbing Chen*.</strong> Emerging Computing Technology for
+            Digital Culture Heritage Preservation and Inheritance: A Literature
+            Review. IEEE Transactions on Computational Social Systems, 2025.
           </li>
           <li>
-            Xiao Xue, Xinyang Li, Boyang Jia, Jiachen Du, and Xinyi Fu*. 2024.
-            Who Should Hold Control? Rethinking Empowerment in Home Automation
-            among Cohabitants through the Lens of Co-Design. CHI '24.
+            <strong>Xiao Xue, Xinyang Li, Boyang Jia, Jiachen Du, and Xinyi
+            Fu*.</strong> Who Should Hold Control? Rethinking Empowerment in Home
+            Automation among Cohabitants through the Lens of Co-Design. CHI '24,
+            2024.
           </li>
           <li>
-            He Zhang, Xinyang Li, Yuanxi Sun, Xinyi Fu*, Christine Qiu, and John
-            M. Carroll. 2024. VRMN-bD: A Multi-modal Natural Behavior Dataset of
-            Immersive Human Fear Responses in VR Stand-up Interactive Games.
-            IEEE VR 2024.
+            <strong>He Zhang, Xinyang Li, Yuanxi Sun, Xinyi Fu*, Christine Qiu,
+            and John M. Carroll.</strong> VRMN-bD: A Multi-modal Natural
+            Behavior Dataset of Immersive Human Fear Responses in VR Stand-up
+            Interactive Games. IEEE VR, 2024.
+          </li>
+          <li>
+            <strong>Mengyu Chen, Shuang He, and Xinyi Fu*.</strong> A Case Study
+            Exploring the Applicability of Heuristic Evaluation in Smart Home
+            Systems. CHI EA '24, 2024.
           </li>
         </ol>
       </section>
 
-      <section class="section two-column" id="patents">
-        <div class="section-title">
-          <p>Innovation</p>
-          <h2>Patents</h2>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <article>
+            <h3>Community-based Elderly Care and Psychological Anomaly Detection</h3>
+            <p>
+              Research on rapid identification and linked response mechanisms
+              for psychological anomalies in elderly care systems.
+            </p>
+          </article>
+          <article>
+            <h3>Privacy-Preserving Human Identification and Intelligent Sensing</h3>
+            <p>
+              Key technologies for proactive human identification and intelligent
+              sensing based on large models.
+            </p>
+          </article>
+          <article>
+            <h3>Smart Spaces for Future Personalized Living</h3>
+            <p>
+              Research on the construction and design of smart spaces for
+              personalized living and future domestic intelligence.
+            </p>
+          </article>
         </div>
-        <ol class="paper-list section-body">
-          <li>
-            Dr. Fu has filed more than 20 invention patents related to
-            human-computer interaction, intelligent sensing, and user experience
-            evaluation.
-          </li>
-          <li>
-            Her work has also received recognition including a Best Poster Award
-            at IMWUT/UbiComp and a Special Contribution Award from ICACHI.
-          </li>
-        </ol>
       </section>
 
-      <section class="contact-section" id="contact">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Get in touch</h2>
-        </div>
-        <address>
-          The Future Laboratory, Tsinghua University<br />
-          Beijing, China<br />
-          <a href="mailto:fuxy@tsinghua.edu.cn">fuxy@tsinghua.edu.cn</a>
-        </address>
+      <section class="section" id="service">
+        <h2>Service</h2>
+        <ul class="service-list">
+          <li>Senior Member of CCF and CSIG.</li>
+          <li>
+            Executive Member of the CCF Pervasive Computing and CCF
+            Human-Computer Interaction Technical Committees.
+          </li>
+          <li>Board Member of ICACHI.</li>
+          <li>
+            Organizing or program committee service for ACM CHI, IEEE ISMAR,
+            SIGGRAPH Asia, and ICHEC.
+          </li>
+        </ul>
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="footer">
       <span>© 2026 Xinyi Fu</span>
-      <a href="#home">Back to top</a>
+      <a href="#about">Back to top</a>
     </footer>
   </body>
 </html>
