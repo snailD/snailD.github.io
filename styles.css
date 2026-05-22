@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  padding: 20px;
+  padding: 0 20px 20px;
   box-sizing: border-box;
   font: 0.85em "Lucida Grande", Verdana, Arial, "Microsoft YaHei", sans-serif;
 }
@@ -46,6 +46,9 @@ a:hover {
 
 .top-nav {
   grid-column: 1 / -1;
+  position: sticky;
+  top: 0;
+  z-index: 5;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -74,6 +77,8 @@ a:hover {
 }
 
 .left {
+  grid-column: 1;
+  grid-row: 2;
   width: 22em;
   flex: 0 0 22em;
   display: flex;
@@ -146,6 +151,8 @@ hr {
 }
 
 .right {
+  grid-column: 2;
+  grid-row: 2;
   min-width: 0;
   flex: 1 1 auto;
   display: flex;
@@ -166,40 +173,13 @@ hr {
   margin: 0 0 0.35em;
 }
 
-.bottom {
-  flex-shrink: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 0.8em 0 1em;
-  padding: 9px 10px;
-  border: 1px solid #d5d5d5;
-  background: #eeeeee;
-}
-
-.bottom a {
-  display: block;
-  border: 1px solid transparent;
-  border-radius: 3px;
-  padding: 10px 15px;
-  background: #ffffff;
-  border-bottom: 0;
-}
-
-.bottom a:hover {
-  background: #dcdcdc;
-  border: 1px solid #bbbbbb;
-  color: #000000;
-  border-bottom: 0;
-}
-
 .chinese-name {
-  font-size: 1.45em;
+  font-size: 26px;
   font-weight: bold;
+  line-height: 1.25;
 }
 
-.right section,
-.bottom {
+.right section {
   max-width: 1000px;
 }
 
@@ -273,11 +253,6 @@ strong {
   font-weight: bold;
 }
 
-.bottom {
-  margin-top: 2em;
-  padding-top: 0.5em;
-}
-
 @media (max-width: 760px) {
   html {
     height: auto;
@@ -321,8 +296,7 @@ strong {
     padding-right: 0;
   }
 
-  .nav a,
-  .bottom a {
+  .top-nav a {
     padding: 10px 12px;
   }
 }
