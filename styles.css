@@ -35,11 +35,42 @@ a:hover {
 .wrap {
   width: min(1180px, 100%);
   height: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 22em minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
   gap: 2.6em;
   margin: 0 auto;
   padding: 0 18px;
   background: #ffffff;
+}
+
+.top-nav {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 1.2em;
+  padding: 12px 14px;
+  border: 1px solid #d0d0d0;
+  background: #eeeeee;
+  font-size: 1.08em;
+}
+
+.top-nav a {
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 11px 18px;
+  background: #ffffff;
+  border-bottom: 0;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  background: #dcdcdc;
+  border: 1px solid #bbbbbb;
+  color: #000000;
+  border-bottom: 0;
 }
 
 .left {
@@ -135,7 +166,6 @@ hr {
   margin: 0 0 0.35em;
 }
 
-.nav,
 .bottom {
   flex-shrink: 0;
   display: flex;
@@ -147,7 +177,6 @@ hr {
   background: #eeeeee;
 }
 
-.nav a,
 .bottom a {
   display: block;
   border: 1px solid transparent;
@@ -157,12 +186,16 @@ hr {
   border-bottom: 0;
 }
 
-.nav a:hover,
 .bottom a:hover {
   background: #dcdcdc;
   border: 1px solid #bbbbbb;
   color: #000000;
   border-bottom: 0;
+}
+
+.chinese-name {
+  font-size: 1.45em;
+  font-weight: bold;
 }
 
 .right section,
@@ -191,6 +224,29 @@ hr {
 .right {
   overflow-y: auto;
   padding-right: 1em;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120, 120, 120, 0.35) transparent;
+}
+
+.right::-webkit-scrollbar,
+.news::-webkit-scrollbar {
+  width: 8px;
+}
+
+.right::-webkit-scrollbar-track,
+.news::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.right::-webkit-scrollbar-thumb,
+.news::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(120, 120, 120, 0.28);
+}
+
+.right::-webkit-scrollbar-thumb:hover,
+.news::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 120, 0.45);
 }
 
 h2 {
@@ -238,6 +294,10 @@ strong {
     height: auto;
     display: block;
     padding: 0;
+  }
+
+  .top-nav {
+    margin-bottom: 1em;
   }
 
   .left {
