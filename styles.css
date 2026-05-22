@@ -1,147 +1,257 @@
-body {
-  margin: 0;
-  background: #ffffff;
-  color: #222222;
-  font-family: Arial, Helvetica, "Microsoft YaHei", sans-serif;
-  font-size: 14px;
-  line-height: 1.55;
+html {
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font: 0.85em "Lucida Grande", Verdana, Arial, "Microsoft YaHei", sans-serif;
 }
 
-a {
-  color: #0645ad;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #ffffff;
+  color: #222222;
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  border-bottom: 1px dotted #808080;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #666666;
+  border-bottom: 1px dotted #808080;
+  text-decoration: none;
 }
 
 .wrap {
-  max-width: 1050px;
-  display: grid;
-  grid-template-columns: 245px 1fr;
-  gap: 28px;
-  margin: 24px auto 32px;
-  padding: 0 18px;
+  height: 100%;
+  display: flex;
+  gap: 2em;
 }
 
 .left {
-  color: #333333;
-  font-size: 13px;
+  width: 17em;
+  flex: 0 0 17em;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.left > .portrait,
+.left > p {
+  flex-shrink: 0;
+}
+
+.left {
+  font-size: small;
 }
 
 .portrait {
-  width: 205px;
+  width: 100%;
+  max-height: 230px;
+  object-fit: cover;
+  object-position: center top;
   display: block;
-  margin-bottom: 16px;
-  border: 1px solid #dddddd;
+  background: #e6e6e6;
+  padding: 1em;
+  border: 0;
+}
+
+.left p,
+.left hr,
+.left h2,
+.news {
+  background: #e6e6e6;
 }
 
 .left p {
-  margin: 0 0 14px;
+  margin: 0;
+  padding: 0 1em 1em;
+}
+
+.left p:first-of-type {
+  padding-top: 1em;
 }
 
 hr {
   height: 1px;
-  margin: 18px 0;
+  margin: 0;
   border: 0;
-  border-top: 1px solid #cccccc;
-}
-
-h1,
-h2,
-p {
-  margin-top: 0;
-}
-
-h1 {
-  margin-bottom: 4px;
-  font-size: 32px;
-  font-weight: normal;
-  line-height: 1.15;
-}
-
-h2 {
-  margin: 0 0 9px;
-  color: #333333;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-transform: none;
+  border-top: 1px solid #c8c8c8;
 }
 
 .left h2 {
-  font-size: 13px;
-  text-transform: uppercase;
+  margin: 0;
+  padding: 1em 1em 0.5em;
+  font: bold large "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
 .left h2 span {
-  color: #777777;
-  font-size: 12px;
+  font-size: 8pt;
   font-weight: normal;
-  text-transform: none;
 }
 
 .news {
-  max-height: 310px;
+  flex: 1 1 auto;
   overflow-y: auto;
-  padding-right: 8px;
+  padding: 0 1em 1em;
 }
 
 .news p {
-  margin-bottom: 12px;
+  margin: 0 0 1em;
+}
+
+.right {
+  min-width: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .name {
-  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.name h1 {
+  margin: 0 0 0.2em;
+  font: bold 18pt "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
 .name p {
-  margin-bottom: 4px;
+  margin: 0 0 0.35em;
 }
 
 .nav,
 .bottom {
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin: 10px 0 18px;
-  padding: 8px 0;
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
+  gap: 0;
+  margin: 0.8em 0 1em;
+  padding: 0;
+  border: 0;
 }
 
-section {
-  margin-bottom: 24px;
+.nav a,
+.bottom a {
+  display: block;
+  padding: 14px 16px;
+  border-bottom: 0;
 }
 
-section p {
-  margin-bottom: 10px;
+.nav a:hover,
+.bottom a:hover {
+  background: #dddddd;
+  color: #000000;
+  border-bottom: 0;
+}
+
+.right section,
+.bottom {
+  max-width: 1000px;
+}
+
+.right section {
+  margin: 0 0 1.7em;
+}
+
+.right {
+  overflow: hidden;
+}
+
+.right::after {
+  content: "";
+  display: block;
+}
+
+.right > section,
+.right > footer {
+  flex-shrink: 0;
+}
+
+.right {
+  overflow-y: auto;
+  padding-right: 1em;
+}
+
+h2 {
+  margin: 0 0 0.55em;
+  font: bold large "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 0.75em;
 }
 
 ul,
 ol {
-  margin: 0 0 0 22px;
+  margin: 0 0 0 25px;
   padding: 0;
 }
 
 li {
-  margin-bottom: 9px;
+  margin: 0 0 0.65em;
+  padding: 5px;
+}
+
+strong {
+  font-weight: bold;
 }
 
 .bottom {
-  margin-top: 28px;
-  margin-bottom: 0;
+  margin-top: 2em;
+  padding-top: 0.5em;
 }
 
 @media (max-width: 760px) {
+  html {
+    height: auto;
+    padding: 12px;
+  }
+
+  body {
+    height: auto;
+    overflow: auto;
+  }
+
   .wrap {
-    grid-template-columns: 1fr;
-    margin-top: 16px;
-    padding: 0 14px;
+    height: auto;
+    display: block;
+  }
+
+  .left {
+    width: 100%;
+    display: block;
+    overflow: visible;
+    margin-bottom: 1.5em;
   }
 
   .portrait {
-    width: 190px;
+    width: 200px;
+  }
+
+  .news {
+    max-height: 260px;
+  }
+
+  .right {
+    height: auto;
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .nav a,
+  .bottom a {
+    padding: 10px 12px;
   }
 }
