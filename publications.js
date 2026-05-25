@@ -5,6 +5,15 @@ const placeholder = {
   heritage: "assets/pub-placeholder-heritage.svg"
 };
 
+const selectedPublicationIds = ["p35", "p49", "p32", "p54", "p53"];
+const selectedCitationCounts = {
+  p35: 70,
+  p49: 57,
+  p32: 25,
+  p54: 15,
+  p53: 15
+};
+
 const publications = [
   {
     year: "2026",
@@ -551,31 +560,73 @@ const publications = [
 function renderPublications() {
   const root = document.getElementById("publication-list");
   if (!root) return;
-  root.innerHTML = publications
-    .map((paper) => {
-      const title = paper.doi
-        ? `<a class="paper-title-link" href="${paper.doi}">${paper.title}</a>`
-        : paper.title;
-      return `
-        <article class="paper">
-          <a class="paper-thumb" href="${paper.doi || "#"}" aria-label="${paper.title}">
-            <img src="${paper.image}" alt="${paper.title}" loading="lazy" />
-          </a>
-          <div class="paper-meta">
-            <h5>${title}</h5>
-            <p class="authors">${paper.authors}</p>
-            <p class="paper-desc">${paper.meta}</p>
-            <p class="paper-links">
-              <span class="venue">${paper.venue}</span>
-              <span class="year-tag">${paper.year}</span>
-              <span class="tag">${paper.tag}</span>
-            </p>
-          </div>
-        </article>
-      `;
-    })
-    .join("");
+  const numberedPublications = publications.map((paper, index) => ({
+    ...paper,
+    id: `p${String(index + 1).padStart(2, "0")}`
+  }));
+  const selectedPublications = selectedPublicationIds
+    .map((id) => numberedPublications.find((paper) => paper.id === id))
+    .filter(Boolean);
+
+  const renderPaper = (paper, selected = false) => {
+    const title = paper.doi
+      ? `<a class="paper-title-link" href="${paper.doi}">${paper.title}</a>`
+      : paper.title;
+    const citation = selectedCitationCounts[paper.id]
+      ? `<span class="citation-tag">Cited by ${selectedCitationCounts[paper.id]}</span>`
+      : "";
+    return `
+      <article class="paper">
+        <a class="paper-thumb" href="${paper.doi || "#"}" aria-label="${paper.title}">
+          <img src="${paper.image}" alt="${paper.title}" loading="lazy" />
+        </a>
+        <div class="paper-meta">
+          <h5>${title}</h5>
+          <p class="authors">${paper.authors}</p>
+          <p class="paper-desc">${paper.meta}</p>
+          <p class="paper-links">
+            <span class="venue">${paper.venue}</span>
+            <span class="year-tag">${paper.year}</span>
+            <span class="tag">${paper.tag}</span>
+            ${selected ? citation : ""}
+          </p>
+        </div>
+      </article>
+    `;
+  };
+
+  root.innerHTML = `
+    <div class="publication-tabs" role="tablist" aria-label="Publication lists">
+      <button class="publication-tab active" type="button" data-target="selected-publications" role="tab" aria-selected="true">
+        Selected Publications
+      </button>
+      <button class="publication-tab" type="button" data-target="all-publications" role="tab" aria-selected="false">
+        All Publications
+      </button>
+    </div>
+    <div class="publication-panel active" id="selected-publications" role="tabpanel">
+      ${selectedPublications.map((paper) => renderPaper(paper, true)).join("")}
+    </div>
+    <div class="publication-panel" id="all-publications" role="tabpanel" hidden>
+      ${numberedPublications.map((paper) => renderPaper(paper)).join("")}
+    </div>
+  `;
+
+  root.querySelectorAll(".publication-tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const target = tab.dataset.target;
+      root.querySelectorAll(".publication-tab").forEach((item) => {
+        const active = item === tab;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-selected", active ? "true" : "false");
+      });
+      root.querySelectorAll(".publication-panel").forEach((panel) => {
+        const active = panel.id === target;
+        panel.classList.toggle("active", active);
+        panel.hidden = !active;
+      });
+    });
+  });
 }
 
 renderPublications();
-
