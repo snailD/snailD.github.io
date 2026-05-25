@@ -10,7 +10,7 @@ const publications = [
     year: "2026",
     venue: "ICHEC'25",
     tag: "HCI",
-    image: placeholder.hci,
+    image: "assets/publications/p01.png",
     title: "Body Management Information Practices on a Female-dominant Platform",
     authors: "Na Li, Chuhao Wu, Hongyang Zhou, Huiran Yi, Xuefei Wang, Jie Cai*, Xinyi Fu, and John M. Carroll",
     meta: "Proceedings of the 2025 International Conference on Human-Engaged Computing.",
