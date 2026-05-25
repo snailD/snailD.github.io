@@ -131,6 +131,17 @@ p {
   margin: 0 0 12px;
 }
 
+.intro p,
+.research-list,
+.row-body,
+.paper-meta {
+  color: var(--ink);
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft YaHei", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
 .profile-links {
   margin: 12px 0 22px;
   text-align: center;
@@ -271,7 +282,7 @@ p {
 
 .paper-desc {
   margin-bottom: 8px;
-  color: var(--muted);
+  color: var(--ink);
 }
 
 .paper-links {
