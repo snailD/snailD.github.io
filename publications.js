@@ -130,7 +130,7 @@ const publications = [
     year: "2025",
     venue: "ASSETS'25",
     tag: "Accessibility",
-    image: "assets/publications/p13.jpg",
+    image: "assets/publications/p13.png",
     title: "Tactile Data Comics: Combining Step-by-step Presentation of Tactile Graphics with Verbal Narration for the Blind and Visually Impaired",
     authors: "Yang Jiao, Ruoting Sun, Rong Luo, Xiwen Yao, Xinran She, Kotaro Hara, Yuewen Zhang, and Xinyi Fu",
     meta: "Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility.",
