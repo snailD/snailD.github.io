@@ -148,6 +148,23 @@ p {
   margin-bottom: 8px;
 }
 
+.updates-accordion {
+  display: grid;
+  gap: 6px;
+}
+
+.updates-accordion details {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+
+.updates-accordion summary {
+  cursor: pointer;
+  padding: 8px 0;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
 .updates {
   display: grid;
   grid-template-columns: 58px minmax(0, 1fr);
@@ -172,14 +189,14 @@ p {
 
 .intro h1 {
   margin: 0 0 8px;
-  font-size: 2.05rem;
+  font-size: 2.15rem;
   line-height: 1.15;
 }
 
 .intro h1 span {
-  color: var(--muted);
-  font-size: 1.45rem;
-  font-weight: 400;
+  color: var(--ink);
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .position {
@@ -216,20 +233,72 @@ p {
 
 .paper {
   display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
-  gap: 18px;
-  padding-bottom: 12px;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 22px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
 }
 
-.venue {
-  align-self: start;
+.paper:last-child {
+  border-bottom: 0;
+}
+
+.paper-thumb {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--soft);
+}
+
+.paper-thumb img {
+  width: 100%;
+  height: 132px;
+  display: block;
+  object-fit: cover;
+}
+
+.paper-meta h5 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.authors {
+  margin-bottom: 5px;
+}
+
+.paper-desc {
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.venue,
+.tag {
   border-radius: 999px;
   padding: 4px 9px;
-  background: var(--main-color);
-  color: #ffffff;
   font-size: 0.78rem;
   font-weight: 700;
   text-align: center;
+}
+
+.venue {
+  background: var(--main-color);
+  color: #ffffff;
+}
+
+.tag {
+  background: #eef2f7;
+  color: var(--main-color);
 }
 
 .semibold {
