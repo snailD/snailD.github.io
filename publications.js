@@ -5,13 +5,13 @@ const placeholder = {
   heritage: "assets/pub-placeholder-heritage.svg"
 };
 
-const selectedPublicationIds = ["p35", "p49", "p32", "p54", "p53"];
+const selectedPublicationIds = ["p35", "p49", "p32", "p27", "p29"];
 const selectedCitationCounts = {
   p35: 70,
   p49: 57,
   p32: 25,
-  p54: 15,
-  p53: 15
+  p27: 14,
+  p29: 13
 };
 
 const publications = [
