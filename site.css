@@ -5,6 +5,7 @@
   --paper: #ffffff;
   --soft: #f8f9fa;
   --ink: #212529;
+  --accent: #003366;
 }
 
 *,
@@ -276,6 +277,39 @@ p {
   gap: 16px;
 }
 
+.publication-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 4px;
+}
+
+.publication-tab {
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 11px 8px 10px;
+  text-align: center;
+}
+
+.publication-tab:hover {
+  color: var(--ink);
+}
+
+.publication-tab.active {
+  border-color: var(--main-color);
+  color: var(--ink);
+}
+
+.publication-panel {
+  display: grid;
+  gap: 16px;
+}
+
 .paper {
   display: grid;
   grid-template-columns: 210px minmax(0, 1fr);
@@ -339,7 +373,8 @@ p {
 
 .venue,
 .year-tag,
-.tag {
+.tag,
+.citation-tag {
   border-radius: 999px;
   padding: 4px 9px;
   font-size: 0.78rem;
@@ -360,6 +395,11 @@ p {
 .year-tag {
   background: #f1f3f5;
   color: #495057;
+}
+
+.citation-tag {
+  background: #fff7e6;
+  color: #7a4f00;
 }
 
 .semibold {
