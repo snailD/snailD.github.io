@@ -276,6 +276,16 @@ p {
   font-weight: 700;
 }
 
+.paper-title-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.paper-title-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .authors {
   margin-bottom: 5px;
 }
@@ -291,13 +301,6 @@ p {
   align-items: center;
   gap: 8px;
   margin: 0;
-}
-
-.bracket-link {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  white-space: nowrap;
 }
 
 .venue,
