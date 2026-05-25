@@ -283,6 +283,9 @@ p {
 }
 
 .bracket-link {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
   white-space: nowrap;
 }
 
