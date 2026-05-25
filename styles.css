@@ -202,7 +202,6 @@ hr {
 
 .right {
   grid-column: 2;
-  grid-row: 2;
   min-width: 0;
   flex: 1 1 auto;
   display: flex;
