@@ -2,7 +2,7 @@
 
 这是一个可以直接发布到 GitHub Pages 的静态个人主页。当前版本参考 zhdsun.github.io 的扁平化学术主页风格：sticky 顶部导航、圆形头像、左侧信息表、Updates 日期列表、右侧行式内容板块。
 
-Updated: 2026-05-25 layout fix.
+Updated: 2026-05-25 research text refresh.
 
 ## 修改内容
 
