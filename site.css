@@ -301,6 +301,7 @@ p {
 }
 
 .venue,
+.year-tag,
 .tag {
   border-radius: 999px;
   padding: 4px 9px;
@@ -317,6 +318,11 @@ p {
 .tag {
   background: #eef2f7;
   color: var(--main-color);
+}
+
+.year-tag {
+  background: #f1f3f5;
+  color: #495057;
 }
 
 .semibold {
