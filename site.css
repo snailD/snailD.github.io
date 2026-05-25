@@ -101,8 +101,8 @@ a:hover {
 }
 
 .photo-wrap img {
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 280px;
   display: block;
   border-radius: 50%;
   object-fit: cover;
