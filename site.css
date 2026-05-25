@@ -282,6 +282,10 @@ p {
   margin: 0;
 }
 
+.bracket-link {
+  white-space: nowrap;
+}
+
 .venue,
 .tag {
   border-radius: 999px;
