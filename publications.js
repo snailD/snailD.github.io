@@ -5,6 +5,7 @@ const placeholder = {
   heritage: "assets/pub-placeholder-heritage.svg"
 };
 
+const publicationAssetVersion = "thumbs-20260525-2118";
 const selectedPublicationIds = ["p35", "p49", "p32", "p27", "p29"];
 const selectedCitationCounts = {
   p35: 70,
@@ -27,12 +28,12 @@ const publications = [
   },
   {
     year: "2026",
-    venue: "瑁呴グ",
-    tag: "鏅鸿兘瀹跺眳",
+    venue: "装饰",
+    tag: "智能家居",
     image: "assets/publications/p02.jpg",
-    title: "璐ㄦ€х爺绌跺湪鏅鸿兘瀹跺眳鐢ㄦ埛鐮旂┒涓殑浠峰€间笌搴旂敤",
-    authors: "浣曠埥, 鏉滀匠鐞? 浠樺績浠?",
-    meta: "瑁呴グ, 2026(03):30-37.",
+    title: "质性研究在智能家居用户研究中的价值与应用",
+    authors: "何爽, 杜佳琛, 付心仪*",
+    meta: "装饰, 2026(03):30-37.",
     doi: "https://doi.org/10.16272/j.cnki.cn11-1392/j.2026.03.023"
   },
   {
@@ -187,12 +188,12 @@ const publications = [
   },
   {
     year: "2025",
-    venue: "寤虹瓚鎶€鑹?",
-    tag: "鏅鸿兘鍘ㄦ埧",
+    venue: "建筑技艺",
+    tag: "智能厨房",
     image: "assets/publications/p18.jpg",
-    title: "鏅鸿兘鍘ㄦ埧浜や簰璁捐鐮旂┒缁艰堪",
-    authors: "浣曠埥, 寰愯繋搴? 浠樺績浠?",
-    meta: "寤虹瓚鎶€鑹?涓嫳鏂?, 2025, 31(02):25-33.",
+    title: "智能厨房交互设计研究综述",
+    authors: "何爽, 徐迎庆, 付心仪*",
+    meta: "建筑技艺(中英文), 2025, 31(02):25-33.",
     doi: "https://doi.org/10.19953/j.at.2025.02.006"
   },
   {
@@ -200,7 +201,7 @@ const publications = [
     venue: "HCII",
     tag: "Older Adults",
     image: "assets/publications/p19.jpg",
-    title: "Physiological and Behavioral Analysis Based Multimodal Evaluation of Older Adults鈥?Experience with Kitchen Appliances",
+    title: "Older Adults’ Experience with Kitchen Appliances",
     authors: "Cheng Xue, Minghui Liu, Yuxiang Zhai, Jiachen Du, Xinyi Fu*",
     meta: "Human Aspects of IT for the Aged Population. HCII 2025.",
     doi: "https://doi.org/10.1007/978-3-031-92710-2_11"
@@ -210,7 +211,7 @@ const publications = [
     venue: "ICLR Workshop",
     tag: "Human-AI",
     image: "assets/publications/p20.jpg",
-    title: "Augmenting Image Annotation: A Human鈥揕MM Collaborative Framework for Efficient Object Selection and Label Generation",
+    title: "Augmenting Image Annotation: A Human–LMM Collaborative Framework for Efficient Object Selection and Label Generation",
     authors: "He Zhang, Xinyi Fu*, and John Millar Carroll",
     meta: "ICLR 2025 Workshop on Bidirectional Human-AI Alignment.",
     doi: ""
@@ -267,12 +268,12 @@ const publications = [
   },
   {
     year: "2024",
-    venue: "鍖呰宸ョ▼",
+    venue: "包装工程",
     tag: "AI Design",
     image: "assets/publications/p26.jpg",
-    title: "浜哄伐鏅鸿兘鍦ㄨ璁′骇涓氫腑鐨勫簲鐢ㄥ強鍙戝睍",
-    authors: "寰愯繋搴? 鍛ㄦ瞾鎬? 閭撳, 寮犵厹, 浠樺績浠?",
-    meta: "鍖呰宸ョ▼, 2024, 45(08):1-10.",
+    title: "人工智能在设计产业中的应用及发展",
+    authors: "徐迎庆, 周沁怡, 邓婕, 张煜, 付心仪*",
+    meta: "包装工程, 2024, 45(08):1-10.",
     doi: "https://doi.org/10.19554/j.cnki.1001-3563.2024.08.001"
   },
   {
@@ -370,19 +371,19 @@ const publications = [
     venue: "绉戞妧瀵兼姤",
     tag: "鏅鸿兘瀹跺眳",
     image: "assets/publications/p36.jpg",
-    title: "闈㈠悜鏈潵鐨勬櫤鑳藉灞呭墠娌胯繘灞?",
-    authors: "浠樺績浠? 寮犻工, 钖涚▼, 瀛欑蹇?",
-    meta: "绉戞妧瀵兼姤, 2023, 41(8):36-52.",
+    title: "面向未来的智能家居前沿进展",
+    authors: "付心仪, 张鹤, 薛程, 孙童心",
+    meta: "科技导报, 2023, 41(8):36-52.",
     doi: "https://doi.org/10.3981/j.issn.1000-7857.2023.08.004"
   },
   {
     year: "2023",
-    venue: "璁＄畻鏈鸿緟鍔╄璁′笌鍥惧舰瀛﹀鎶?",
+    venue: "计算机辅助设计与图形学学报",
     tag: "Affective Computing",
     image: "assets/publications/p37.jpg",
-    title: "闅愮鍙嬪ソ鐨勬鎬佹暟鎹噰闆嗕笌鎯呯华璇嗗埆鏂规硶",
-    authors: "鑲栬櫣, 鍞愬仴鍑? 涓橀洦娑? 浠樺績浠?",
-    meta: "璁＄畻鏈鸿緟鍔╄璁′笌鍥惧舰瀛﹀鎶? 2023, 35(02):203-212.",
+    title: "隐私友好的步态数据采集与情绪识别方法",
+    authors: "肖虹, 唐健凯, 丘雨涵, 付心仪*",
+    meta: "计算机辅助设计与图形学学报, 2023, 35(02):203-212.",
     doi: "https://doi.org/10.3724/SP.J.1089.2023.20042"
   },
   {
@@ -390,9 +391,9 @@ const publications = [
     venue: "绉戞妧瀵兼姤",
     tag: "Design Innovation",
     image: placeholder.hci,
-    title: "瀛︾浜ゅ弶涓庤璁″垱鏂扮爺绌惰繘灞?",
-    authors: "寰愯繋搴? 鐜嬮煫, 浠樺績浠? 绛?",
-    meta: "绉戞妧瀵兼姤, 2023, 41(8):17-25.",
+    title: "学科交叉与设计创新研究进展",
+    authors: "徐迎庆, 王韫, 付心仪, 等",
+    meta: "科技导报, 2023, 41(8):17-25.",
     doi: "https://doi.org/10.3981/j.issn.1000-7857.2023.08.002"
   },
   {
@@ -430,9 +431,9 @@ const publications = [
     venue: "鍖呰宸ョ▼",
     tag: "鏅鸿兘瀹跺眳",
     image: "assets/publications/p42.jpg",
-    title: "鏅鸿兘瀹跺眳缁煎悎瀹為獙骞冲彴璁捐鐮旂┒涓庡簲鐢ㄥ疄璺?",
-    authors: "浠樺績浠? 寮犻工, 钖涚▼, 鏉庢娲? 瀛欏枂, 寰愯繋搴?",
-    meta: "鍖呰宸ョ▼, 2022, 43(16):50-58+108.",
+    title: "智能家居综合实验平台设计研究与应用实践",
+    authors: "付心仪, 张鹤, 薛程, 李欣洋, 孙喆, 徐迎庆*",
+    meta: "包装工程, 2022, 43(16):50-58+108.",
     doi: "https://doi.org/10.19554/j.cnki.1001-3563.2022.16.005"
   },
   {
@@ -460,39 +461,39 @@ const publications = [
     venue: "鏁︾厡鐮旂┒",
     tag: "Cultural Heritage",
     image: "assets/publications/p45.jpg",
-    title: "鏁︾厡鑾珮绐熺儫鐔忓鐢荤殑鏁板瓧鍖栬壊褰╁鍘熺爺绌?",
-    authors: "浠樺績浠? 鏉庡博, 瀛欏織鍐? 鏉滈箖, 鐜嬪嚖骞? 寰愯繋搴?",
-    meta: "鏁︾厡鐮旂┒, 2021(01):137-147.",
+    title: "敦煌莫高窟烟熏壁画的数字化色彩复原研究",
+    authors: "付心仪, 李岩, 孙志军, 杜鹃, 王凤平, 徐迎庆*",
+    meta: "敦煌研究, 2021(01):137-147.",
     doi: ""
   },
   {
     year: "2020",
-    venue: "璁＄畻鏈鸿緟鍔╄璁′笌鍥惧舰瀛﹀鎶?",
+    venue: "计算机辅助设计与图形学学报",
     tag: "Affective Computing",
     image: "assets/publications/p46.jpg",
-    title: "鍩轰簬BGRU-FUS-NN绁炵粡缃戠粶鐨勫Э鎬佹儏鎰熻绠楁柟娉曠爺绌?",
-    authors: "浠樺績浠? 钄″ぉ闃? 钖涚▼, 寮犲畤缈? 寰愯繋搴?",
-    meta: "璁＄畻鏈鸿緟鍔╄璁′笌鍥惧舰瀛﹀鎶? 2020, 32(07):1070-1079.",
+    title: "基于BGRU-FUS-NN神经网络的姿态情感计算方法研究",
+    authors: "付心仪, 蔡天阳, 薛程, 张宇翔, 徐迎庆*",
+    meta: "计算机辅助设计与图形学学报, 2020, 32(07):1070-1079.",
     doi: ""
   },
   {
     year: "2020",
-    venue: "璁＄畻鏈鸿緟鍔╄璁′笌鍥惧舰瀛﹀鎶?",
+    venue: "计算机辅助设计与图形学学报",
     tag: "Affective Computing",
     image: "assets/publications/p47.jpg",
-    title: "鍩轰簬濮挎€佺殑鎯呮劅璁＄畻缁艰堪",
-    authors: "浠樺績浠? 钖涚▼, 鏉庡笇, 寮犵帴娉? 钄″ぉ闃?",
-    meta: "璁＄畻鏈鸿緟鍔╄璁′笌鍥惧舰瀛﹀鎶? 2020, 32(07):1052-1061.",
+    title: "基于姿态的情感计算综述",
+    authors: "付心仪, 薛程, 李希, 张玥泽, 蔡天阳",
+    meta: "计算机辅助设计与图形学学报, 2020, 32(07):1052-1061.",
     doi: ""
   },
   {
     year: "2020",
-    venue: "瑁呴グ",
+    venue: "装饰",
     tag: "Design",
     image: "assets/publications/p48.jpg",
-    title: "淇℃伅鏃朵唬鑳屾櫙涓嬬殑鏂板叴澶т紬鍖栬璁?",
-    authors: "閮濆己, 浠樺績浠?, 寰愯繋搴?",
-    meta: "瑁呴グ, 2020(03):38-42.",
+    title: "信息时代背景下的新兴大众化设计",
+    authors: "郝强, 付心仪*, 徐迎庆",
+    meta: "装饰, 2020(03):38-42.",
     doi: ""
   },
   {
@@ -520,9 +521,9 @@ const publications = [
     venue: "瑁呴グ",
     tag: "Cultural Heritage",
     image: "assets/publications/p51.jpg",
-    title: "鐮存崯澹佺敾鐨勬暟瀛楀寲澶嶅師鐮旂┒鈥斺€斾互鏁︾厡澹佺敾涓轰緥",
-    authors: "浠樺績浠? 楹绘檽濞?, 瀛欏織鍐?",
-    meta: "瑁呴グ, 2019(01):21-27.",
+    title: "破损壁画的数字化复原研究——以敦煌壁画为例",
+    authors: "付心仪, 麻晓娟*, 孙志军",
+    meta: "装饰, 2019(01):21-27.",
     doi: ""
   },
   {
@@ -530,9 +531,9 @@ const publications = [
     venue: "瑁呴グ",
     tag: "Visualization",
     image: "assets/publications/p52.jpg",
-    title: "淇℃伅鍙鍖栫殑鍙戝睍涓庢€濊€?",
-    authors: "浠樺績浠? 鍒樹笘闇? 寰愯繋搴?",
-    meta: "瑁呴グ, 2017(04):16-19.",
+    title: "信息可视化的发展与思考",
+    authors: "付心仪, 刘世霞, 徐迎庆*",
+    meta: "装饰, 2017(04):16-19.",
     doi: ""
   },
   {
@@ -578,7 +579,7 @@ function renderPublications() {
     return `
       <article class="paper">
         <a class="paper-thumb" href="${paper.doi || "#"}" aria-label="${paper.title}">
-          <img src="${paper.image}" alt="${paper.title}" loading="lazy" />
+          <img src="${paper.image}?v=${publicationAssetVersion}" alt="${paper.title}" loading="lazy" />
         </a>
         <div class="paper-meta">
           <h5>${title}</h5>
