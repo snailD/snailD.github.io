@@ -90,7 +90,7 @@ const publications = [
     year: "2026",
     venue: "HRI'26",
     tag: "HRI",
-    image: placeholder.hci,
+    image: "assets/publications/p09.png",
     title: "POIROT: Investigating Direct Tangible vs. Digitally Mediated Interaction and Attitude Moderation in Multi-party Murder Mystery Games",
     authors: "Wen Chen, Rongxi Chen, Shankai Chen, Huiyang Gong, Minghui Guo, Yingri Xu, Xintong Wu, and Xinyi Fu*",
     meta: "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction.",
@@ -100,7 +100,7 @@ const publications = [
     year: "2026",
     venue: "IUI'26",
     tag: "AIoT",
-    image: placeholder.hci,
+    image: "assets/publications/p10.png",
     title: "AIoT Smart Home Automation Architecture: Autonomous Decision-Making Powered by Multimodal Large Language Models (MLLMs)",
     authors: "He Zhang, Yuewen Zhang, Bochen Li, Wen Chen, Yueyan Liu, Qianyao Xu, and Xinyi Fu*",
     meta: "Companion Proceedings of the 31st International Conference on Intelligent User Interfaces.",
@@ -567,6 +567,7 @@ function renderPublications() {
             <p class="paper-desc">${paper.meta}</p>
             <p class="paper-links">
               <span class="venue">${paper.venue}</span>
+              <span class="year-tag">${paper.year}</span>
               <span class="tag">${paper.tag}</span>
               ${doi}
             </p>
