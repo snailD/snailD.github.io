@@ -394,8 +394,8 @@ const publications = [
   },
   {
     year: "2023",
-    venue: "绉戞妧瀵兼姤",
-    tag: "鏅鸿兘瀹跺眳",
+    venue: "科技导报",
+    tag: "智能家居",
     image: "assets/publications/p36.jpg",
     title: "面向未来的智能家居前沿进展",
     authors: "付心仪, 张鹤, 薛程, 孙童心",
@@ -414,7 +414,7 @@ const publications = [
   },
   {
     year: "2023",
-    venue: "绉戞妧瀵兼姤",
+    venue: "科技导报",
     tag: "Design Innovation",
     image: placeholder.hci,
     title: "学科交叉与设计创新研究进展",
@@ -454,8 +454,8 @@ const publications = [
   },
   {
     year: "2022",
-    venue: "鍖呰宸ョ▼",
-    tag: "鏅鸿兘瀹跺眳",
+    venue: "包装工程",
+    tag: "智能家居",
     image: "assets/publications/p42.jpg",
     title: "智能家居综合实验平台设计研究与应用实践",
     authors: "付心仪, 张鹤, 薛程, 李欣洋, 孙喆, 徐迎庆*",
@@ -484,7 +484,7 @@ const publications = [
   },
   {
     year: "2021",
-    venue: "鏁︾厡鐮旂┒",
+    venue: "敦煌研究",
     tag: "Cultural Heritage",
     image: "assets/publications/p45.jpg",
     title: "敦煌莫高窟烟熏壁画的数字化色彩复原研究",
@@ -544,7 +544,7 @@ const publications = [
   },
   {
     year: "2019",
-    venue: "瑁呴グ",
+    venue: "装饰",
     tag: "Cultural Heritage",
     image: "assets/publications/p51.jpg",
     title: "破损壁画的数字化复原研究——以敦煌壁画为例",
@@ -554,7 +554,7 @@ const publications = [
   },
   {
     year: "2017",
-    venue: "瑁呴グ",
+    venue: "装饰",
     tag: "Visualization",
     image: "assets/publications/p52.jpg",
     title: "信息可视化的发展与思考",
