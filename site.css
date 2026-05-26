@@ -144,9 +144,8 @@ p {
   line-height: 1.55;
 }
 
-.profile-links {
-  margin: 12px 0 22px;
-  text-align: center;
+.info-links {
+  line-height: 1.65;
 }
 
 .section-title {
@@ -254,9 +253,9 @@ p {
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 20px;
-  padding-bottom: 18px;
+  border-bottom: 0;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
 }
 
 .row-line {
@@ -291,8 +290,8 @@ p {
   display: grid;
   grid-template-columns: 25% minmax(0, 75%);
   gap: 20px;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 10px 0 14px;
+  border-bottom: 0;
 }
 
 .service-group:last-child {
