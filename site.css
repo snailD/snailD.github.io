@@ -471,7 +471,7 @@ p {
 
 .back-to-top {
   position: fixed;
-  right: 22px;
+  right: max(24px, calc((100vw - 1140px) / 2 + 12px));
   bottom: 24px;
   z-index: 100;
   width: 42px;
