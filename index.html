@@ -50,8 +50,8 @@
         ]
       }
     </script>
-    <link rel="stylesheet" href="site.css?v=pub-tabs-20260526-5" />
-    <script src="publications.js?v=pub-tabs-20260526-5" defer></script>
+    <link rel="stylesheet" href="site.css?v=pub-tabs-20260526-6" />
+    <script src="publications.js?v=pub-tabs-20260526-6" defer></script>
   </head>
   <body>
     <div class="container">
@@ -265,5 +265,21 @@
         <div>Copyright © 2026 · Xinyi Fu</div>
       </footer>
     </div>
+
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">&uarr;</button>
+    <script>
+      const backToTopButton = document.querySelector(".back-to-top");
+
+      function updateBackToTopButton() {
+        backToTopButton.classList.toggle("is-visible", window.scrollY > 520);
+      }
+
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      updateBackToTopButton();
+      window.addEventListener("scroll", updateBackToTopButton, { passive: true });
+    </script>
   </body>
 </html>
