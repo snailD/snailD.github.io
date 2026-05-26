@@ -296,36 +296,46 @@ p {
   height: auto;
 }
 
-.service-group {
-  display: grid;
-  grid-template-columns: 25% minmax(0, 75%);
-  gap: 20px;
-  padding: 10px 0 14px;
-  border-bottom: 0;
+.service-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
-.service-group:last-child {
-  border-bottom: 0;
+.service-table th,
+.service-table td {
+  border-bottom: 1px solid #edf0f2;
+  padding: 9px 10px;
+  text-align: left;
+  vertical-align: top;
 }
 
-.service-group h5 {
-  margin: 0;
-  color: var(--ink);
-  font-size: 0.95rem;
+.service-table th {
+  color: var(--muted);
+  font-size: 0.8rem;
   font-weight: 700;
-  line-height: 1.45;
-  text-align: right;
 }
 
-.service-list {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
+.service-table th:first-child,
+.service-table td:first-child {
+  width: 24%;
 }
 
-.service-list li {
-  margin-bottom: 7px;
-  padding-left: 0;
+.service-table th:nth-child(2),
+.service-table td:nth-child(2) {
+  width: 18%;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.service-table th:nth-child(3),
+.service-table td:nth-child(3) {
+  width: 58%;
+}
+
+.service-category {
+  color: var(--ink);
+  font-weight: 700;
 }
 
 .publication-list {
@@ -530,16 +540,39 @@ p {
   }
 
   .row-line,
-  .service-group,
   .paper {
     grid-template-columns: 1fr;
     gap: 6px;
   }
 
   .row-label,
-  .service-group h5,
   .updates dt {
     text-align: left;
+  }
+
+  .service-table {
+    font-size: 0.9rem;
+  }
+
+  .service-table th,
+  .service-table td {
+    padding: 8px 7px;
+  }
+
+  .service-table th:first-child,
+  .service-table td:first-child {
+    width: 28%;
+  }
+
+  .service-table th:nth-child(2),
+  .service-table td:nth-child(2) {
+    width: 24%;
+    white-space: normal;
+  }
+
+  .service-table th:nth-child(3),
+  .service-table td:nth-child(3) {
+    width: 48%;
   }
 
   .updates {
