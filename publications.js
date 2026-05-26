@@ -5,15 +5,41 @@ const placeholder = {
   heritage: "assets/pub-placeholder-heritage.svg"
 };
 
-const publicationAssetVersion = "thumbs-20260525-2118";
+const publicationAssetVersion = "thumbs-20260526-1";
 const selectedPublicationIds = ["p35", "p49", "p32", "p27", "p29"];
-const selectedCitationCounts = {
-  p35: 70,
-  p49: 57,
-  p32: 25,
-  p27: 14,
-  p29: 13
+const tagColors = [
+  ["HCI", "#E8F3FF", "#23527C"],
+  ["VR", "#F1E8FF", "#5B3F86"],
+  ["Smart Home", "#E8F7EF", "#2F6B4F"],
+  ["智能家居", "#E8F7EF", "#2F6B4F"],
+  ["Affective", "#FFECEF", "#8A3B4A"],
+  ["Heritage", "#FFF2D8", "#806126"],
+  ["Design", "#EAF6F6", "#2D6F73"],
+  ["AI", "#EDEFFF", "#4651A3"],
+  ["Access", "#F8ECFF", "#754A91"],
+  ["Health", "#FFEFE7", "#8A4D35"]
+];
+const yearColors = {
+  "2026": ["#E7F0FF", "#2D5A8A"],
+  "2025": ["#EAF8F0", "#2F7151"],
+  "2024": ["#FFF1DE", "#835A22"],
+  "2023": ["#F1ECFF", "#604B91"],
+  "2022": ["#EAF7F8", "#347078"],
+  "2021": ["#FFECEF", "#8A3B4A"],
+  "2020": ["#F5F1E8", "#6F6046"],
+  "2019": ["#EEF2F7", "#526174"],
+  "2017": ["#F7EEF5", "#7A4C6E"]
 };
+function colorStyle(colors) {
+  return `style="background:${colors[0]};color:${colors[1]}"`;
+}
+function tagStyle(tag) {
+  const matched = tagColors.find(([key]) => tag.toLowerCase().includes(key.toLowerCase()));
+  return colorStyle(matched ? [matched[1], matched[2]] : ["#F1F3F5", "#495057"]);
+}
+function yearStyle(year) {
+  return colorStyle(yearColors[year] || ["#F1F3F5", "#495057"]);
+}
 
 const publications = [
   {
@@ -201,7 +227,7 @@ const publications = [
     venue: "HCII",
     tag: "Older Adults",
     image: "assets/publications/p19.jpg",
-    title: "Older Adults’ Experience with Kitchen Appliances",
+    title: "Physiological and Behavioral Analysis Based Multimodal Evaluation of Older Adults’ Experience with Kitchen Appliances",
     authors: "Cheng Xue, Minghui Liu, Yuxiang Zhai, Jiachen Du, Xinyi Fu*",
     meta: "Human Aspects of IT for the Aged Population. HCII 2025.",
     doi: "https://doi.org/10.1007/978-3-031-92710-2_11"
@@ -569,13 +595,10 @@ function renderPublications() {
     .map((id) => numberedPublications.find((paper) => paper.id === id))
     .filter(Boolean);
 
-  const renderPaper = (paper, selected = false) => {
+  const renderPaper = (paper) => {
     const title = paper.doi
       ? `<a class="paper-title-link" href="${paper.doi}">${paper.title}</a>`
       : paper.title;
-    const citation = selectedCitationCounts[paper.id]
-      ? `<span class="citation-tag">Cited by ${selectedCitationCounts[paper.id]}</span>`
-      : "";
     return `
       <article class="paper">
         <a class="paper-thumb" href="${paper.doi || "#"}" aria-label="${paper.title}">
@@ -587,9 +610,8 @@ function renderPublications() {
           <p class="paper-desc">${paper.meta}</p>
           <p class="paper-links">
             <span class="venue">${paper.venue}</span>
-            <span class="year-tag">${paper.year}</span>
-            <span class="tag">${paper.tag}</span>
-            ${selected ? citation : ""}
+            <span class="year-tag" ${yearStyle(paper.year)}>${paper.year}</span>
+            <span class="tag" ${tagStyle(paper.tag)}>${paper.tag}</span>
           </p>
         </div>
       </article>
@@ -606,7 +628,7 @@ function renderPublications() {
       </button>
     </div>
     <div class="publication-panel active" id="selected-publications" role="tabpanel">
-      ${selectedPublications.map((paper) => renderPaper(paper, true)).join("")}
+      ${selectedPublications.map((paper) => renderPaper(paper)).join("")}
     </div>
     <div class="publication-panel" id="all-publications" role="tabpanel" hidden>
       ${numberedPublications.map((paper) => renderPaper(paper)).join("")}
