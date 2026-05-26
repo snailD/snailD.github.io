@@ -6,7 +6,7 @@ const placeholder = {
 };
 
 const publicationAssetVersion = "thumbs-20260526-7";
-const selectedPublicationIds = ["p35", "p49", "p32", "p27", "p29"];
+const selectedPublicationIds = ["p35", "p49", "p12", "p27", "p29"];
 const tagColors = [
   ["HCI", "#E8F3FF", "#23527C"],
   ["VR", "#F1E8FF", "#5B3F86"],
