@@ -627,7 +627,7 @@ function renderPublications() {
   root.innerHTML = `
     <div class="publication-tabs" role="tablist" aria-label="Publication lists">
       <button class="publication-tab active" type="button" data-target="selected-publications" role="tab" aria-selected="true">
-        Selected Publications
+        Featured Publications
       </button>
       <button class="publication-tab" type="button" data-target="all-publications" role="tab" aria-selected="false">
         All Publications
