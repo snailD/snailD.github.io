@@ -5,7 +5,7 @@ const placeholder = {
   heritage: "assets/pub-placeholder-heritage.svg"
 };
 
-const publicationAssetVersion = "thumbs-20260526-5";
+const publicationAssetVersion = "thumbs-20260526-6";
 const selectedPublicationIds = ["p35", "p49", "p32", "p27", "p29"];
 const tagColors = [
   ["HCI", "#E8F3FF", "#23527C"],
