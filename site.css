@@ -114,19 +114,31 @@ a:hover {
 
 .info-table {
   border-bottom: 1px solid var(--line);
-  padding-bottom: 14px;
+  padding: 2px 0 13px;
 }
 
 .info-row {
   display: grid;
-  grid-template-columns: 28px minmax(0, 1fr);
-  gap: 10px;
-  margin-bottom: 12px;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  margin-bottom: 8px;
 }
 
 .info-icon {
   color: var(--main-color);
+  font-size: 0.9rem;
+  line-height: 1.45;
   text-align: center;
+}
+
+.info-row p {
+  margin-bottom: 0;
+  line-height: 1.45;
+}
+
+.info-row:first-child p {
+  font-weight: 600;
 }
 
 p {
@@ -145,7 +157,16 @@ p {
 }
 
 .info-links {
-  line-height: 1.65;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  line-height: 1.45;
+}
+
+.info-links a + a::before {
+  content: "/";
+  margin-right: 10px;
+  color: #adb5bd;
 }
 
 .section-title {
