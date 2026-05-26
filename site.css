@@ -466,32 +466,34 @@ p {
 
 .back-to-top {
   position: fixed;
-  right: 24px;
-  bottom: 26px;
-  z-index: 30;
-  width: 40px;
-  height: 40px;
-  border: 1px solid rgba(33, 37, 41, 0.16);
+  right: 22px;
+  bottom: 24px;
+  z-index: 100;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(33, 37, 41, 0.24);
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.94);
   color: var(--ink);
   cursor: pointer;
-  font: 600 1rem/1 Arial, Helvetica, sans-serif;
+  box-shadow: 0 6px 18px rgba(33, 37, 41, 0.12);
+  font: 700 1.05rem/1 Arial, Helvetica, sans-serif;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(8px);
-  transition: opacity 160ms ease, transform 160ms ease, border-color 160ms ease, background 160ms ease;
+  transform: translateY(6px);
+  transition: opacity 140ms ease, transform 140ms ease, border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
 }
 
 .back-to-top.is-visible {
-  opacity: 0.82;
+  opacity: 0.96;
   pointer-events: auto;
   transform: translateY(0);
 }
 
 .back-to-top:hover {
-  border-color: rgba(33, 37, 41, 0.34);
-  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(33, 37, 41, 0.42);
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(33, 37, 41, 0.16);
   opacity: 1;
 }
 
