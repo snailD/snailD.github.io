@@ -63,9 +63,10 @@ a:hover {
 .home {
   padding: 18px 0 14px;
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.55rem;
-  font-style: italic;
+  font-family: "Great Vibes", Georgia, "Times New Roman", serif;
+  font-size: 2.05rem;
+  font-style: normal;
+  line-height: 1;
   text-decoration: none;
 }
 
@@ -283,6 +284,37 @@ p {
   padding-left: 2px;
 }
 
+.service-group {
+  display: grid;
+  grid-template-columns: 25% minmax(0, 75%);
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.service-group:last-child {
+  border-bottom: 0;
+}
+
+.service-group h5 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: right;
+}
+
+.service-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.service-list li {
+  margin-bottom: 7px;
+  padding-left: 2px;
+}
+
 .publication-list {
   display: grid;
   gap: 16px;
@@ -480,12 +512,14 @@ p {
   }
 
   .row-line,
+  .service-group,
   .paper {
     grid-template-columns: 1fr;
     gap: 6px;
   }
 
   .row-label,
+  .service-group h5,
   .updates dt {
     text-align: left;
   }

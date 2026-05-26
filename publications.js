@@ -5,7 +5,7 @@ const placeholder = {
   heritage: "assets/pub-placeholder-heritage.svg"
 };
 
-const publicationAssetVersion = "thumbs-20260526-1";
+const publicationAssetVersion = "thumbs-20260526-2";
 const selectedPublicationIds = ["p35", "p49", "p32", "p27", "p29"];
 const tagColors = [
   ["HCI", "#E8F3FF", "#23527C"],
@@ -342,7 +342,7 @@ const publications = [
     year: "2024",
     venue: "Frontiers",
     tag: "Health",
-    image: placeholder.affect,
+    image: "assets/publications/p30.jpg",
     title: "Editorial: Body-centric computing for health and wellbeing",
     authors: "Zhuying Li, Xipei Ren, Chengyu Liu, Ding Ding, and Xinyi Fu",
     meta: "Frontiers in Computer Science, Volume 6.",
@@ -422,7 +422,7 @@ const publications = [
     year: "2023",
     venue: "科技导报",
     tag: "Design Innovation",
-    image: placeholder.hci,
+    image: "assets/publications/p38.png",
     title: "学科交叉与设计创新研究进展",
     authors: "徐迎庆, 王韫, 付心仪, 等",
     meta: "科技导报, 2023, 41(8):17-25.",
