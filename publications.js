@@ -41,6 +41,12 @@ function yearStyle(year) {
   return colorStyle(yearColors[year] || ["#F1F3F5", "#495057"]);
 }
 
+function highlightAuthorName(authors) {
+  return authors
+    .replace(/Xinyi Fu/g, "<strong>Xinyi Fu</strong>")
+    .replace(/付心仪/g, "<strong>付心仪</strong>");
+}
+
 const publications = [
   {
     year: "2026",
@@ -606,7 +612,7 @@ function renderPublications() {
         </a>
         <div class="paper-meta">
           <h5>${title}</h5>
-          <p class="authors">${paper.authors}</p>
+          <p class="authors">${highlightAuthorName(paper.authors)}</p>
           <p class="paper-desc">${paper.meta}</p>
           <p class="paper-links">
             <span class="venue">${paper.venue}</span>
