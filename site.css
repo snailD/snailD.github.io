@@ -307,12 +307,13 @@ p {
 
 .service-list {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
+  list-style: none;
 }
 
 .service-list li {
   margin-bottom: 7px;
-  padding-left: 2px;
+  padding-left: 0;
 }
 
 .publication-list {
