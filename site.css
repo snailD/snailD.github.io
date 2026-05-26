@@ -286,6 +286,16 @@ p {
   padding-left: 2px;
 }
 
+.research-figure {
+  margin: 18px 0 2px;
+}
+
+.research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .service-group {
   display: grid;
   grid-template-columns: 25% minmax(0, 75%);
