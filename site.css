@@ -321,6 +321,10 @@ p {
   gap: 16px;
 }
 
+.publication-panel[hidden] {
+  display: none;
+}
+
 .paper {
   display: grid;
   grid-template-columns: 210px minmax(0, 1fr);
@@ -384,8 +388,7 @@ p {
 
 .venue,
 .year-tag,
-.tag,
-.citation-tag {
+.tag {
   border-radius: 999px;
   padding: 4px 9px;
   font-size: 0.78rem;
@@ -406,11 +409,6 @@ p {
 .year-tag {
   background: #f1f3f5;
   color: #495057;
-}
-
-.citation-tag {
-  background: #fff7e6;
-  color: #7a4f00;
 }
 
 .semibold {
