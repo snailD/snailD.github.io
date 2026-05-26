@@ -373,6 +373,10 @@ p {
   margin-bottom: 5px;
 }
 
+.authors strong {
+  font-weight: 700;
+}
+
 .paper-desc {
   margin-bottom: 8px;
   color: var(--ink);
