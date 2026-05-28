@@ -15,7 +15,7 @@ Rules:
 | Date | Show | News | Link |
 | --- | --- | --- | --- |
 | 2026-MM | no | Add new 2026 news here. |  |
-| 2026-04 | yes | 3 full papers and 2 posters presented in CHI 2026 @Barcelona, Spain |  |
+| 2026-04 | yes | Three full papers and two posters presented in CHI 2026 @Barcelona, Spain |  |
 | 2026-03 | yes | POIROT presented in HRI2026 @Edinburgh, UK |  |
 
 
