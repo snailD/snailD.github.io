@@ -307,6 +307,47 @@ p {
   padding-left: 2px;
 }
 
+.talk-list {
+  display: grid;
+  gap: 14px;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.talk-thumb {
+  width: 150px;
+  aspect-ratio: 3 / 2;
+  border: 1px solid #d8dee6;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #f7f8fa;
+}
+
+.talk-thumb img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  background: #f7f8fa;
+}
+
+.talk-body h5 {
+  margin: 0 0 6px;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.talk-time {
+  margin: 0;
+  color: var(--muted);
+}
+
 .research-figure {
   margin: 18px 0 2px;
 }
@@ -539,9 +580,14 @@ p {
   }
 
   .row-line,
+  .talk,
   .paper {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .talk-thumb {
+    width: min(100%, 220px);
   }
 
   .row-label,
