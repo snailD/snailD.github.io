@@ -56,7 +56,7 @@
   ],
   "invitedTalks": [
     {
-      "image": "assets/talks/p01.png",
+      "image": "\"assets/talks/p01.png\"",
       "topic": "The boundary between entities and numbers:The adaptive embodied design of robots And insights for a comprehensive ecosystem",
       "time": "Academic Seminar on Embodied Intelligence @Beijing 2026.05"
     }
