@@ -314,14 +314,14 @@ p {
 
 .talk {
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-columns: 210px minmax(0, 1fr);
   gap: 18px;
   align-items: center;
   padding: 8px 0;
 }
 
 .talk-thumb {
-  width: 150px;
+  width: 210px;
   aspect-ratio: 3 / 2;
   border: 1px solid #d8dee6;
   border-radius: 4px;
@@ -587,7 +587,7 @@ p {
   }
 
   .talk-thumb {
-    width: min(100%, 220px);
+    width: 210px;
   }
 
   .row-label,
