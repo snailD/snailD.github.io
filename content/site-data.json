@@ -158,23 +158,23 @@
     "courses":  [
                     {
                         "course":  "Computational Thinking and Digital Media",
-                        "time":  "26 Spring"
+                        "time":  "Spring 26"
                     },
                     {
                         "course":  "Information Art and Design",
-                        "time":  "25 Fall"
+                        "time":  "Fall 25"
                     },
                     {
                         "course":  "Intelligent Space Design",
-                        "time":  "25 Spring"
+                        "time":  "Spring 25"
                     },
                     {
                         "course":  "How emotion is computed?",
-                        "time":  "25 Spring"
+                        "time":  "Spring 25"
                     },
                     {
                         "course":  "Interaction Design",
-                        "time":  "24 Fall"
+                        "time":  "Fall 24"
                     }
                 ]
 }
