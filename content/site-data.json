@@ -1,159 +1,161 @@
 {
-  "profile": {
-    "name": "Xinyi Fu",
-    "chineseName": "付心仪",
-    "position": "Associate Professor, The Future Laboratory, Tsinghua University",
-    "affiliation": [
-      "Associate Professor",
-      "The Future Laboratory",
-      "Tsinghua University"
-    ],
-    "location": "Beijing, China",
-    "email": "fuxy@tsinghua.edu.cn",
-    "googleScholar": "https://scholar.google.com/citations?user=mug2Xl4AAAAJ&hl=zh-CN&oi=ao",
-    "tsinghuaProfile": "https://thfl.tsinghua.edu.cn/en/yjdw/jzg/Central_Organization/Human_Computer_Interaction__and_User_Experience/Resercher/Xinyi_Fu.htm",
-    "bio": [
-      "I am an Associate Professor at The Future Laboratory, Tsinghua University. I received my Ph.D. in Design from the Academy of Arts & Design, Tsinghua University in 2018, and my Bachelor's degree from the Department of Computer Science and Technology, Tsinghua University in 2012.",
-      "My research focuses on multimodal sensing, computing, and interaction in living spaces. My work emphasizes the sensing and modeling of human behavior and psychology through multi-modal sensing to construct human-centric intelligent systems. Through this work, I aim to enhance the efficiency and quality of human-machine collaboration and deepen the machine's understanding of human cognition."
-    ]
-  },
-  "research": {
-    "intro": "My research spans several key domains:",
-    "image": "assets/research.png",
-    "items": [
-      {
-        "label": "Sensing",
-        "text": "Smart Home Experimental Platform, Sensors, and Dataset"
-      },
-      {
-        "label": "Reasoning",
-        "text": "Human Activity Recognition (HAR) and Affective Computing"
-      },
-      {
-        "label": "Interaction",
-        "text": "UX, VR/AR, HRI"
-      },
-      {
-        "label": "Application",
-        "text": "Digital Cultural Heritage"
-      }
-    ]
-  },
-  "projects": [
-    "Xiaomi Light and Color Coordination Project, 2026.3-2027.5, PI",
-    "Research on Rapid Identification and Coordinated Response Mechanisms for Psychological Abnormalities among Older Adults in Community-Based Elderly Care Systems, 2025.9-2027.12, PI",
-    "Key Technologies for Low-Privacy Proactive Identity Recognition Based on Large Language Models, 2025.8-2026.7, PI",
-    "2025 Beijing-Hong Kong-Macao University Exchange Program: Interdisciplinary Frontier Exploration and Collaborative Exchange Project, 2025.5-2026.5",
-    "2024 Mainland-Hong Kong-Macao Higher Education Student and Faculty Exchange Program (\"Ten Thousand Talents Program\"), 2024.1-2024.12",
-    "Long-Term Elderly Behavior and Mental Health Monitoring with Abnormality Early Warning Based on Multimodal Sensing Fusion, 2025.1-2026.12, PI",
-    "Top-Level Interaction Experience Design for Xiaomi Smart Home Systems, 2024.11-2026.12, PI",
-    "Data-Driven Intelligent Scenario Monitoring, 2024.5-2025.4, PI",
-    "Field Evaluation of Acoustic and Radio Frequency Wireless Sensing Technologies, 2024.3-2025.3, PI",
-    "Research on Digital Science Communication and Exhibition of Cultural Heritage Based on Virtual Reality, 2023.10-2026.10, PI",
-    "Research on New Models of Innovation and Social Development in the Era of Emerging Artificial Intelligence, 2023.10-2024.9, PI",
-    "Research on High-Quality Development Pathways for the Science Fiction Industry Based on 5G+AR/VR Technologies, 2022.7-2022.10, PI",
-    "Research on the Construction and Design of Smart Spaces for Future Personalized Living Environments, 2021.4-2023.3, PI",
-    "Interaction Design Research for Virtual Reality Shopping, 2019.6-2021.6, PI"
-  ],
-  "courses": [],
-  "invitedTalks": [
-    {
-      "image": "assets/talks/p01.png",
-      "topic": "The boundary between entities and numbers:the adaptive embodied design of robots and insights for a comprehensive ecosystem",
-      "time": "Academic Seminar on Embodied Intelligence @Beijing 2026.05"
-    },
-    {
-      "image": "assets/talks/p02.png",
-      "topic": "Embarking on Embodied Intelligence：From Artificial Intelligence to the Future of Smart Manufacturing",
-      "time": "China Railway @Beijing 2026.05"
-    }
-  ],
-  "services": {
-    "organizing": [
-      {
-        "venue": "CHI 2027",
-        "role": "Interactive Demo Chair"
-      },
-      {
-        "venue": "ICHEC 2025",
-        "role": "LBW Chair"
-      },
-      {
-        "venue": "IEEE ISMAR 2025",
-        "role": "Publicity Chair"
-      },
-      {
-        "venue": "Chinese CHI 2024",
-        "role": "Paper Chair"
-      },
-      {
-        "venue": "CHI 2025",
-        "role": "Sustainability Chair"
-      },
-      {
-        "venue": "SIGGRAPH Asia 2024",
-        "role": "Emerging Technologies Committee Member"
-      },
-      {
-        "venue": "Chinese CHI 2024",
-        "role": "Paper Chair"
-      },
-      {
-        "venue": "Chinese CHI 2022",
-        "role": "Publicity Chair"
-      },
-      {
-        "venue": "China Graph 2022",
-        "role": "Electronic Theater Organizing Committee Member"
-      }
-    ],
-    "professional": [
-      {
-        "time": "2025-present",
-        "role": "Executive Committee Member of CCF Technical Committee on Pervasive Computing"
-      },
-      {
-        "time": "2024-present",
-        "role": "Senior Member of China Computer Federation (CCF)"
-      },
-      {
-        "time": "2024-present",
-        "role": "Senior Member of China Society of Image and Graphics (CSIG)"
-      },
-      {
-        "time": "2024-present",
-        "role": "Secretary of Collaborative Innovation Alliance for Forensic Science and Technology"
-      },
-      {
-        "time": "2024-present",
-        "role": "Board Member of International Chinese Association of Computer Human Interaction (ICACHI)"
-      },
-      {
-        "time": "2023-2026",
-        "role": "Young Researcher of Beijing Association for Science and Technology Decision Advisory Expert Team on Interdisciplinary Research and Design Innovation"
-      },
-      {
-        "time": "2021-present",
-        "role": "Executive Committee Member of CCF Technical Committee on Human-Computer Interaction"
-      },
-      {
-        "time": "2021-present",
-        "role": "Committee Member of CSIG Technical Committee on Affective Computing and Understanding"
-      }
-    ],
-    "editorial": [
-      {
-        "type": "Conference Review",
-        "text": "CHI 2026 AC; DIS 26; HRI 26; CHI 2025 LBW AC; CHI PLAY 25; DIS 2024; UbiComp 2024"
-      },
-      {
-        "type": "Journal Review",
-        "text": "IEEE Transactions on Affective Computing; Scientific Reports; IEEE Transactions on Computational Social Systems; Frontiers of Information Technology & Electronic Engineering; Computers & Graphics; Heritage Science; Imaging Science Journal; She Ji; Sciences of Conservation and Archaeology"
-      },
-      {
-        "type": "Associate Editor",
-        "text": "Frontiers in Computer Science; JCAD Special Issue"
-      }
-    ]
-  }
+    "profile":  {
+                    "name":  "Xinyi Fu",
+                    "chineseName":  "付心仪",
+                    "position":  "Associate Professor, The Future Laboratory, Tsinghua University",
+                    "affiliation":  [
+                                        "Associate Professor",
+                                        "The Future Laboratory",
+                                        "Tsinghua University"
+                                    ],
+                    "location":  "Beijing, China",
+                    "email":  "fuxy@tsinghua.edu.cn",
+                    "googleScholar":  "https://scholar.google.com/citations?user=mug2Xl4AAAAJ\u0026hl=zh-CN\u0026oi=ao",
+                    "tsinghuaProfile":  "https://thfl.tsinghua.edu.cn/en/yjdw/jzg/Central_Organization/Human_Computer_Interaction__and_User_Experience/Resercher/Xinyi_Fu.htm",
+                    "bio":  [
+                                "I am an Associate Professor at The Future Laboratory, Tsinghua University. I received my Ph.D. in Design from the Academy of Arts \u0026 Design, Tsinghua University in 2018, and my Bachelor\u0027s degree from the Department of Computer Science and Technology, Tsinghua University in 2012.",
+                                "My research focuses on multimodal sensing, computing, and interaction in living spaces. My work emphasizes the sensing and modeling of human behavior and psychology through multi-modal sensing to construct human-centric intelligent systems. Through this work, I aim to enhance the efficiency and quality of human-machine collaboration and deepen the machine\u0027s understanding of human cognition."
+                            ]
+                },
+    "research":  {
+                     "intro":  "My research spans several key domains:",
+                     "image":  "assets/research.png",
+                     "items":  [
+                                   {
+                                       "label":  "Sensing",
+                                       "text":  "Smart Home Experimental Platform, Sensors, and Dataset"
+                                   },
+                                   {
+                                       "label":  "Reasoning",
+                                       "text":  "Human Activity Recognition (HAR) and Affective Computing"
+                                   },
+                                   {
+                                       "label":  "Interaction",
+                                       "text":  "UX, VR/AR, HRI"
+                                   },
+                                   {
+                                       "label":  "Application",
+                                       "text":  "Digital Cultural Heritage"
+                                   }
+                               ]
+                 },
+    "projects":  [
+                     "Xiaomi Light and Color Coordination Project, 2026.3-2027.5, PI",
+                     "Research on Rapid Identification and Coordinated Response Mechanisms for Psychological Abnormalities among Older Adults in Community-Based Elderly Care Systems, 2025.9-2027.12, PI",
+                     "Key Technologies for Low-Privacy Proactive Identity Recognition Based on Large Language Models, 2025.8-2026.7, PI",
+                     "2025 Beijing-Hong Kong-Macao University Exchange Program: Interdisciplinary Frontier Exploration and Collaborative Exchange Project, 2025.5-2026.5",
+                     "2024 Mainland-Hong Kong-Macao Higher Education Student and Faculty Exchange Program (\"Ten Thousand Talents Program\"), 2024.1-2024.12",
+                     "Long-Term Elderly Behavior and Mental Health Monitoring with Abnormality Early Warning Based on Multimodal Sensing Fusion, 2025.1-2026.12, PI",
+                     "Top-Level Interaction Experience Design for Xiaomi Smart Home Systems, 2024.11-2026.12, PI",
+                     "Data-Driven Intelligent Scenario Monitoring, 2024.5-2025.4, PI",
+                     "Field Evaluation of Acoustic and Radio Frequency Wireless Sensing Technologies, 2024.3-2025.3, PI",
+                     "Research on Digital Science Communication and Exhibition of Cultural Heritage Based on Virtual Reality, 2023.10-2026.10, PI",
+                     "Research on New Models of Innovation and Social Development in the Era of Emerging Artificial Intelligence, 2023.10-2024.9, PI",
+                     "Research on High-Quality Development Pathways for the Science Fiction Industry Based on 5G+AR/VR Technologies, 2022.7-2022.10, PI",
+                     "Research on the Construction and Design of Smart Spaces for Future Personalized Living Environments, 2021.4-2023.3, PI",
+                     "Interaction Design Research for Virtual Reality Shopping, 2019.6-2021.6, PI"
+                 ],
+    "invitedTalks":  [
+                         {
+                             "image":  "assets/talks/p01.png",
+                             "topic":  "The boundary between entities and numbers:the adaptive embodied design of robots and insights for a comprehensive ecosystem",
+                             "time":  "Academic Seminar on Embodied Intelligence @Beijing 2026.05"
+                         },
+                         {
+                             "image":  "assets/talks/p02.png",
+                             "topic":  "Embarking on Embodied Intelligence：From Artificial Intelligence to the Future of Smart Manufacturing",
+                             "time":  "China Railway @Beijing 2026.05"
+                         }
+                     ],
+    "services":  {
+                     "organizing":  [
+                                        {
+                                            "venue":  "CHI 2027",
+                                            "role":  "Interactive Demo Chair"
+                                        },
+                                        {
+                                            "venue":  "ICHEC 2025",
+                                            "role":  "LBW Chair"
+                                        },
+                                        {
+                                            "venue":  "IEEE ISMAR 2025",
+                                            "role":  "Publicity Chair"
+                                        },
+                                        {
+                                            "venue":  "Chinese CHI 2024",
+                                            "role":  "Paper Chair"
+                                        },
+                                        {
+                                            "venue":  "CHI 2025",
+                                            "role":  "Sustainability Chair"
+                                        },
+                                        {
+                                            "venue":  "SIGGRAPH Asia 2024",
+                                            "role":  "Emerging Technologies Committee Member"
+                                        },
+                                        {
+                                            "venue":  "Chinese CHI 2024",
+                                            "role":  "Paper Chair"
+                                        },
+                                        {
+                                            "venue":  "Chinese CHI 2022",
+                                            "role":  "Publicity Chair"
+                                        },
+                                        {
+                                            "venue":  "China Graph 2022",
+                                            "role":  "Electronic Theater Organizing Committee Member"
+                                        }
+                                    ],
+                     "professional":  [
+                                          {
+                                              "time":  "2025-present",
+                                              "role":  "Executive Committee Member of CCF Technical Committee on Pervasive Computing"
+                                          },
+                                          {
+                                              "time":  "2024-present",
+                                              "role":  "Senior Member of China Computer Federation (CCF)"
+                                          },
+                                          {
+                                              "time":  "2024-present",
+                                              "role":  "Senior Member of China Society of Image and Graphics (CSIG)"
+                                          },
+                                          {
+                                              "time":  "2024-present",
+                                              "role":  "Secretary of Collaborative Innovation Alliance for Forensic Science and Technology"
+                                          },
+                                          {
+                                              "time":  "2024-present",
+                                              "role":  "Board Member of International Chinese Association of Computer Human Interaction (ICACHI)"
+                                          },
+                                          {
+                                              "time":  "2023-2026",
+                                              "role":  "Young Researcher of Beijing Association for Science and Technology Decision Advisory Expert Team on Interdisciplinary Research and Design Innovation"
+                                          },
+                                          {
+                                              "time":  "2021-present",
+                                              "role":  "Executive Committee Member of CCF Technical Committee on Human-Computer Interaction"
+                                          },
+                                          {
+                                              "time":  "2021-present",
+                                              "role":  "Committee Member of CSIG Technical Committee on Affective Computing and Understanding"
+                                          }
+                                      ],
+                     "editorial":  [
+                                       {
+                                           "type":  "Conference Review",
+                                           "text":  "CHI 2026 AC; DIS 26; HRI 26; CHI 2025 LBW AC; CHI PLAY 25; DIS 2024; UbiComp 2024"
+                                       },
+                                       {
+                                           "type":  "Journal Review",
+                                           "text":  "IEEE Transactions on Affective Computing; Scientific Reports; IEEE Transactions on Computational Social Systems; Frontiers of Information Technology \u0026 Electronic Engineering; Computers \u0026 Graphics; Heritage Science; Imaging Science Journal; She Ji; Sciences of Conservation and Archaeology"
+                                       },
+                                       {
+                                           "type":  "Associate Editor",
+                                           "text":  "Frontiers in Computer Science; JCAD Special Issue"
+                                       }
+                                   ]
+                 },
+    "courses":  [
+
+                ]
 }
