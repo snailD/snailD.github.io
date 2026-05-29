@@ -307,6 +307,18 @@ p {
   padding-left: 2px;
 }
 
+.course-rows {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 8px 24px;
+  align-items: baseline;
+}
+
+.course-rows > div:nth-child(2n) {
+  color: var(--muted);
+  text-align: right;
+}
+
 .talk-list {
   display: grid;
   gap: 14px;
@@ -596,9 +608,15 @@ p {
   }
 
   .service-rows-three,
-  .service-rows-two {
+  .service-rows-two,
+  .course-rows {
     grid-template-columns: 1fr;
     gap: 5px;
+  }
+
+  .course-rows > div:nth-child(2n) {
+    margin-bottom: 8px;
+    text-align: left;
   }
 
   .service-rows-three > div:empty {
