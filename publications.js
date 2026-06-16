@@ -52,7 +52,7 @@ const publications = [
     year: "2026",
     venue: "DIS'26",
     tag: "VR",
-    image: "assets/publication-thumbnails/p55.jpg",
+    image: "assets/publications/p55.jpg",
     title: "Wolfborn: Silent Emotional Catharsis and Empathy via Pseudo-Vocalized Embodiment",
     authors: "Xingyu Zhou, He Zhang, Yu Han, Haichen Gao, Xinyi Fu, Shengdong Zhao",
     meta: "Companion Publication of the 2026 ACM Designing Interactive Systems Conference, pp. 604–607.",
