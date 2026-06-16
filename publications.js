@@ -48,7 +48,17 @@ function highlightAuthorName(authors) {
 }
 
 const publications = [
-  {
+{
+    year: "2026",
+    venue: "DIS'26",
+    tag: "VR",
+    image: "assets/publication-thumbnails/p55.jpg",
+    title: "Wolfborn: Silent Emotional Catharsis and Empathy via Pseudo-Vocalized Embodiment",
+    authors: "Xingyu Zhou, He Zhang, Yu Han, Haichen Gao, Xinyi Fu, Shengdong Zhao",
+    meta: "Companion Publication of the 2026 ACM Designing Interactive Systems Conference, pp. 604–607.",
+    doi: "https://doi.org/10.1145/3802974.3808033"
+  },
+{
     year: "2026",
     venue: "ICHEC'25",
     tag: "HCI",
