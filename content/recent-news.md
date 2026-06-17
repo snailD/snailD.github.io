@@ -15,9 +15,9 @@ Rules:
 | Date | Show | News | Link |
 | --- | --- | --- | --- |
 | 2026-MM | no | Add new 2026 news here. |  |
-| 2026-06 | yes | Wolfborn presented in DIS 2026 @Singapore |  |
-| 2026-04 | yes | 3 full papers and 2 posters presented in CHI 2026 @Barcelona, Spain |  |
-| 2026-03 | yes | POIROT presented in HRI 2026 @Edinburgh, UK |  |
+| 2026-06 | yes | Wolfborn presented in DIS 2026 @Singapore! Congrat to Xingyu and co-authors! |  |
+| 2026-04 | yes | 3 full papers and 2 posters presented in CHI 2026 @Barcelona, Spain! Congrats to all co-authors! |  |
+| 2026-03 | yes | POIROT presented in HRI 2026 @Edinburgh, UK! Congrats to Wen and co-authors! |  |
 
 
 ## 2025
