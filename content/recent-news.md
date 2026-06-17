@@ -1,4 +1,4 @@
-# RECENT NEWS
+﻿# RECENT NEWS
 
 Use this file as the single place to maintain homepage news.
 
@@ -40,3 +40,4 @@ Rules:
 | Date | Show | News | Link |
 | --- | --- | --- | --- |
 | YYYY-MM | no | Draft news item. |  |
+
