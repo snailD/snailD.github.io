@@ -1,4 +1,4 @@
-const placeholder = {
+﻿const placeholder = {
   hci: "assets/pub-placeholder-home.svg",
   vr: "assets/pub-placeholder-vr.svg",
   affect: "assets/pub-placeholder-emotion.svg",
@@ -6,7 +6,13 @@ const placeholder = {
 };
 
 const publicationAssetVersion = "thumbs-20260526-7";
-const selectedPublicationIds = ["p35", "p49", "p12", "p27", "p29"];
+const selectedPublicationTitles = [
+  "Restoring Dunhuang Murals: Crafting Cultural Heritage Preservation Knowledge into Immersive Virtual Reality Experience Design",
+  "RestoreVR: Generating Embodied Knowledge and Situated Experience of Dunhuang Mural Conservation via Interactive Virtual Reality",
+  "Emerging Computing Technology for Digital Culture Heritage Preservation and Inheritance: A Literature Review",
+  "Who Should Hold Control? Rethinking Empowerment in Home Automation among Cohabitants through the Lens of Co-Design",
+  "VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games"
+];
 const tagColors = [
   ["HCI", "#E8F3FF", "#23527C"],
   ["VR", "#F1E8FF", "#5B3F86"],
@@ -607,8 +613,8 @@ function renderPublications() {
     ...paper,
     id: `p${String(index + 1).padStart(2, "0")}`
   }));
-  const selectedPublications = selectedPublicationIds
-    .map((id) => numberedPublications.find((paper) => paper.id === id))
+  const selectedPublications = selectedPublicationTitles
+    .map((title) => numberedPublications.find((paper) => paper.title === title))
     .filter(Boolean);
 
   const renderPaper = (paper) => {
@@ -669,3 +675,4 @@ function renderPublications() {
 }
 
 renderPublications();
+
