@@ -23,7 +23,7 @@
     "items": [
       {
         "label": "Sensing",
-        "text": "Smart Home Experimental Platform, Sensors, and Dataset"
+        "text": "AIOT Platform, Multimodal Sensors, and Dataset"
       },
       {
         "label": "Reasoning",
@@ -35,7 +35,7 @@
       },
       {
         "label": "Application",
-        "text": "Digital Cultural Heritage"
+        "text": "Digital Mental Health, Embodied AI, Aging, Digital Cultural Heritage"
       }
     ]
   },
