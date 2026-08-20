@@ -92,6 +92,11 @@
       "image": "assets/talks/p03.png",
       "topic": "Frontier Applications of Artificial Intelligence",
       "time": "China Railway @Beijing 2026.07"
+    },
+    {
+      "image": "assets/talks/p04.png",
+      "topic": "Research on Human-Intelligence Interaction Design in Smart Spaces",
+      "time": "HHME @Changsha 2026.08"
     }
   ],
   "services": {
