@@ -79,14 +79,9 @@
   ],
   "invitedTalks": [
     {
-      "image": "assets/talks/p01.png",
-      "topic": "The boundary between entities and numbers:the adaptive embodied design of robots and insights for a comprehensive ecosystem",
-      "time": "Academic Seminar on Embodied Intelligence @Beijing 2026.05"
-    },
-    {
-      "image": "assets/talks/p02.png",
-      "topic": "Embarking on Embodied Intelligence：From Artificial Intelligence to the Future of Smart Manufacturing",
-      "time": "China Railway @Beijing 2026.05"
+      "image": "assets/talks/p04.png",
+      "topic": "Research on Human-Intelligence Interaction Design in Smart Spaces",
+      "time": "HHME @Changsha 2026.08"
     },
     {
       "image": "assets/talks/p03.png",
@@ -94,9 +89,14 @@
       "time": "China Railway @Beijing 2026.07"
     },
     {
-      "image": "assets/talks/p04.png",
-      "topic": "Research on Human-Intelligence Interaction Design in Smart Spaces",
-      "time": "HHME @Changsha 2026.08"
+      "image": "assets/talks/p02.png",
+      "topic": "Embarking on Embodied Intelligence：From Artificial Intelligence to the Future of Smart Manufacturing",
+      "time": "China Railway @Beijing 2026.05"
+    },
+    {
+      "image": "assets/talks/p01.png",
+      "topic": "The boundary between entities and numbers:the adaptive embodied design of robots and insights for a comprehensive ecosystem",
+      "time": "Academic Seminar on Embodied Intelligence @Beijing 2026.05"
     }
   ],
   "services": {
