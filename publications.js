@@ -1,4 +1,4 @@
-﻿const placeholder = {
+const placeholder = {
   hci: "assets/pub-placeholder-home.svg",
   vr: "assets/pub-placeholder-vr.svg",
   affect: "assets/pub-placeholder-emotion.svg",
@@ -51,6 +51,18 @@ function highlightAuthorName(authors) {
   return authors
     .replace(/Xinyi Fu/g, "<strong>Xinyi Fu</strong>")
     .replace(/付心仪/g, "<strong>付心仪</strong>");
+}
+
+function plainPublicationTitle(title) {
+  return String(title || "").replace(/<\/?(?:i|em)>/gi, "");
+}
+
+function publicationTitleAttribute(title) {
+  return plainPublicationTitle(title)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
 const publications = [
@@ -614,7 +626,7 @@ function renderPublications() {
     id: `p${String(index + 1).padStart(2, "0")}`
   }));
   const selectedPublications = selectedPublicationTitles
-    .map((title) => numberedPublications.find((paper) => paper.title === title))
+    .map((title) => numberedPublications.find((paper) => plainPublicationTitle(paper.title) === plainPublicationTitle(title)))
     .filter(Boolean);
 
   const renderPaper = (paper) => {
@@ -623,8 +635,8 @@ function renderPublications() {
       : paper.title;
     return `
       <article class="paper">
-        <a class="paper-thumb" href="${paper.doi || "#"}" aria-label="${paper.title}">
-          <img src="${paper.image}?v=${publicationAssetVersion}" alt="${paper.title}" loading="lazy" />
+        <a class="paper-thumb" href="${paper.doi || "#"}" aria-label="${publicationTitleAttribute(paper.title)}">
+          <img src="${paper.image}?v=${publicationAssetVersion}" alt="${publicationTitleAttribute(paper.title)}" loading="lazy" />
         </a>
         <div class="paper-meta">
           <h5>${title}</h5>
