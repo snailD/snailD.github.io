@@ -15,9 +15,10 @@ Rules:
 | Date | Show | News | Link |
 | --- | --- | --- | --- |
 | 2026-MM | no | Add new 2026 news here. |  |
-| 2026-06 | yes | Wolfborn presented in DIS 2026 @Singapore! Congrat to Xingyu and co-authors! |  |
+| 2026-10 | yes | *PromptShield Home* and *FolloTask* presented in UbiComp 2026 @Shanghai! Congrat to all co-authors! |  |
+| 2026-06 | yes | *Wolfborn* presented in DIS 2026 @Singapore! Congrat to Xingyu and co-authors! |  |
 | 2026-04 | yes | 3 full papers and 2 posters presented in CHI 2026 @Barcelona, Spain! Congrat to all co-authors! |  |
-| 2026-03 | yes | POIROT presented in HRI 2026 @Edinburgh, UK! Congrat to Wen and co-authors! |  |
+| 2026-03 | yes | *POIROT* presented in HRI 2026 @Edinburgh, UK! Congrat to Wen and co-authors! |  |
 
 
 ## 2025
