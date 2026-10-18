@@ -24,20 +24,28 @@
     "image": "assets/research.png",
     "items": [
       {
-        "label": "Sensing",
-        "text": "AIOT Platform, Multimodal Sensors, and Dataset"
+        "label": "AIOT Platform and Multimodal Dataset",
+        "text": ""
       },
       {
-        "label": "Computing",
-        "text": "Human Activity Recognition (HAR) and Affective Computing"
+        "label": "Embodied Affective Computing",
+        "text": ""
       },
       {
-        "label": "Interaction",
-        "text": "UX, VR/AR, HRI"
+        "label": "Affective Decision-Making for Embodied Agents",
+        "text": ""
+      },
+      {
+        "label": "Embodied Affective Interaction",
+        "text": ""
+      },
+      {
+        "label": "Human–Agent Affective Co-evolution",
+        "text": ""
       },
       {
         "label": "Application",
-        "text": "Smart Home, Digital Mental Health, Embodied AI, smart campus, Aging, Digital Cultural Heritage"
+        "text": "Embodied AI, Smart Home, Intelligent Cockpit, Smart Classroom, and Embodied Cinema."
       }
     ]
   },
