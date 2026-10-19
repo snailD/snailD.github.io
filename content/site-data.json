@@ -18,7 +18,7 @@
   },
   "research": {
     "intro": "My research spans several key domains:",
-    "image": "",
+    "image": "assets/research.png",
     "items": [
       {
         "label": "AIOT Platform and Multimodal Dataset",
