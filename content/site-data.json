@@ -13,7 +13,7 @@
     "googleScholar": "https://scholar.google.com/citations?user=mug2Xl4AAAAJ&hl=zh-CN&oi=ao",
     "tsinghuaProfile": "https://thfl.tsinghua.edu.cn/en/yjdw/jzg/Central_Organization/Human_Computer_Interaction__and_User_Experience/Resercher/Xinyi_Fu.htm",
     "bio": [
-      "I am a Research Associate Professor at The Future Laboratory, Tsinghua University. I received my Ph.D. in Design from the Academy of Arts & Design, Tsinghua University, in 2018, and my B.S. in Computer Science and Technology from Tsinghua University in 2012.",
+      "I am a Research-track Associate Professor at The Future Laboratory, Tsinghua University. I received my Ph.D. in Design from the Academy of Arts & Design, Tsinghua University, in 2018, and my B.S. in Computer Science and Technology from Tsinghua University in 2012.",
       "I lead the Sensing and Affective Intelligence Lab (SNAIL Lab), where we study **Affective Human-AI Interaction (AHAI)**. A central question driving our research is: How are human affect and Al perception, decision-making, and interaction bidirectionally coupled?",
       "We investigate the bidirectional coupling between human multimodal affect and AI perception, decision-making, and interaction in complex contexts. Our research advances affect representation and computing, examines how human affect shapes AI valuation and decision-making, and develops affect-driven decisions and empathetic human–AI interaction. We build systems that understand human affect, make personalized decisions, respond empathetically, and sustain long-term trust. Our research spans a broad range of application domains, including embodied AI, smart homes, intelligent cockpits, and digital mental health.",
       "We welcome applications from outstanding candidates for postdoctoral researcher, research assistant, and research internship positions on a rolling basis."
@@ -65,12 +65,16 @@
   ],
   "courses": [
     {
+      "course": "Interdisciplinary Frontier Exploration",
+      "time": "Fall 26"
+    },
+    {
       "course": "Computational Thinking and Digital Media",
       "time": "Spring 26"
     },
     {
       "course": "Information Art and Design",
-      "time": "Fall 25"
+      "time": "Fall 26"
     },
     {
       "course": "Intelligent Space Design",
@@ -183,15 +187,15 @@
     "editorial": [
       {
         "type": "Conference Review",
-        "text": "CHI 2026 AC; DIS 26; HRI 26; CHI 2025 LBW AC; CHI PLAY 25; DIS 2024; UbiComp 2024"
+        "text": "CHI 2027 AC; CHI 2026 AC; DIS 26; HRI 26; CHI 2025 LBW AC; CHI PLAY 25; DIS 2024; UbiComp 2024"
       },
       {
         "type": "Journal Review",
-        "text": "International Journal of Human-Computer Interaction; IEEE Transactions on Affective Computing; Scientific Reports; IEEE Transactions on Computational Social Systems; Frontiers of Information Technology & Electronic Engineering; Computers & Graphics; npj Heritage Science; Imaging Science Journal; She Ji; Sciences of Conservation and Archaeology"
+        "text": "Humanities and Social Sciences Communications; International Journal of Human-Computer Interaction; IEEE Transactions on Affective Computing; IEEE Transactions on Computational Social Systems; Frontiers of Information Technology & Electronic Engineering; Computers & Graphics; npj Heritage Science; Imaging Science Journal; She Ji; Sciences of Conservation and Archaeology"
       },
       {
         "type": "Associate Editor",
-        "text": "Frontiers in Computer Science; JCAD Special Issue"
+        "text": "Immersive Technologies; Frontiers in Computer Science; JCAD Special Issue"
       }
     ]
   }
